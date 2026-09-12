@@ -91,9 +91,12 @@ integers of several widths, single and double precision floats, the two boolean
 constants, strings, raw data, nil, and object references. Integer fields use a
 variable-length encoding terminated by a high bit.
 
-The preceding paragraph describes the published format rather than a format this
-project has verified end to end. The parser therefore validates its own reading
-rather than trusting the description. Section "Verification" defines that check.
+Measurement during planning confirmed this description against all 17 files. The
+four tables decode with every table ending at exactly the offset the header
+declares for the next one, and the final table ending at the file size. All 17
+files report format version 1.9. The parser still validates its own reading at
+run time, because that check costs nothing and it catches a malformed input
+before the layout stage misinterprets it.
 
 The module exposes one entry point:
 
