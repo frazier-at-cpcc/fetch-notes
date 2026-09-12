@@ -2,6 +2,11 @@
 *.ipa
 ipa/
 Payload/
+build/
 dump_headers/
 headers_out/
-build/
+
+# Python bytecode and test caches are build products, never sources.
+__pycache__/
+*.pyc
+.pytest_cache/
