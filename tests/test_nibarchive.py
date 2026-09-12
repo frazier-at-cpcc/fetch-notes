@@ -156,15 +156,31 @@ def test_every_array_element_reaches_the_layout_tree(bundle_dir):
     # Lives here rather than in tests/test_nib_layout.py because it pins the
     # contract between resolve() and build_tree(), which is what the dropped
     # values broke.
+    #
+    # This asserts the invariant, not the mechanism. build_tree deliberately
+    # refuses to let an NSArray parent its elements, because an array is
+    # archive plumbing rather than view containment, so the elements surface
+    # under a real superview or as roots. What must never happen again is an
+    # element disappearing, which is exactly what the dict-keyed resolve() did.
     from tools import nib_layout
 
     data = (bundle_dir / "CatchToolbarNavigationController.nib").read_bytes()
-    roots = nib_layout.build_tree(nibarchive.resolve(nibarchive.parse(data)))
-    array = next(node for node in roots if node["index"] == 4)
-    assert [child["index"] for child in array["children"]] == [6, 5, 7, 3]
-# Type-8 representation. A data payload is opaque bytes, so it reaches JSON as
-# one mapping shape whatever the bytes happen to hold.
+    archive = nibarchive.parse(data)
+    roots = nib_layout.build_tree(nibarchive.resolve(archive))
 
+    reached = set()
+
+    def walk(node):
+        reached.add(node["index"])
+        for child in node["children"]:
+            walk(child)
+
+    for root in roots:
+        walk(root)
+
+    assert reached == set(range(archive.header.object_count))
+    # The four elements of the array at object 4 are among them.
+    assert {3, 5, 6, 7} <= reached
 
 def test_data_values_decode_to_bytes(nib_paths):
     for path in nib_paths:

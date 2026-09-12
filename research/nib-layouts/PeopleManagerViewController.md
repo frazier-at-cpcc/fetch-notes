@@ -1,0 +1,1752 @@
+# PeopleManagerViewController
+
+Recovered layout for `PeopleManagerViewController.nib`. Every interpreted value appears beside the
+raw decoded value, so a disputed reading stays auditable.
+
+The frame is computed, not stored. `UIBounds` carries the size and an
+origin that is always 0, and `UICenter` carries the position, so the frame
+is origin = center - size / 2 with the size taken from the bounds. Both
+source values appear beside every frame.
+
+A view is nested under another view only through a containment key: `UISubviews`, `UIContentView`, `UITableHeaderView`, `UINavigationBar`.
+The flat registries, among them `UINibObjectsKey` and
+`UINibTopLevelObjectsKey`, name every archived object and describe no
+containment, so they parent nothing.
+
+## Interface
+
+- **UITableViewCell** (object 19)
+  - class: `UITableViewCell`
+  - frame: (0, 0, 320, 44)
+  - raw UIBounds: (0, 0, 320, 44)
+  - raw UICenter: (160, 22)
+  - autoresizing mask: 36
+  - background color: not encoded
+  - hidden: not encoded
+  - opaque: false
+  - tag: not encoded
+  - raw values:
+    - `UIBounds` (type 8): `{'$data_hex': '0600000000000000000000a04300003042', '$floats': [0.0, 0.0, 320.0, 44.0]}`
+    - `UICenter` (type 8): `{'$data_hex': '06000020430000b041', '$floats': [160.0, 22.0]}`
+    - `UISubviews` (type 10): `{'$ref': 165}`
+    - `UIOpaque` (type 5): `False`
+    - `UIAutoresizeSubviews` (type 5): `False`
+    - `UIAutoresizingMask` (type 0): `36`
+    - `UIContentView` (type 10): `{'$ref': 107}`
+    - `UITextLabel` (type 10): `{'$ref': 119}`
+    - `UIDetailTextLabel` (type 9): `None`
+    - `UIImageView` (type 9): `None`
+  - **UITableViewCellContentView** (object 107)
+    - class: `UITableViewCellContentView`
+    - frame: (0, 0, 320, 44)
+    - raw UIBounds: (0, 0, 320, 44)
+    - raw UICenter: (160, 22)
+    - autoresizing mask: not encoded
+    - background color: not encoded
+    - hidden: not encoded
+    - opaque: false
+    - tag: not encoded
+    - raw values:
+      - `UIBounds` (type 8): `{'$data_hex': '0600000000000000000000a04300003042', '$floats': [0.0, 0.0, 320.0, 44.0]}`
+      - `UICenter` (type 8): `{'$data_hex': '06000020430000b041', '$floats': [160.0, 22.0]}`
+      - `UISubviews` (type 10): `{'$ref': 127}`
+      - `UIOpaque` (type 5): `False`
+      - `UIAutoresizeSubviews` (type 5): `False`
+    - **UILabel** (object 119)
+      - class: `UILabel`
+      - frame: (10, 0, 300, 44)
+      - raw UIBounds: (0, 0, 300, 44)
+      - raw UICenter: (160, 22)
+      - autoresizing mask: not encoded
+      - background color: not encoded
+      - font: Helvetica-Bold 17pt
+      - hidden: not encoded
+      - opaque: not encoded
+      - tag: not encoded
+      - raw values:
+        - `UIBounds` (type 8): `{'$data_hex': '0600000000000000000000964300003042', '$floats': [0.0, 0.0, 300.0, 44.0]}`
+        - `UICenter` (type 8): `{'$data_hex': '06000020430000b041', '$floats': [160.0, 22.0]}`
+        - `UIMultipleTouchEnabled` (type 5): `False`
+        - `UIAutoresizeSubviews` (type 5): `False`
+        - `UIContentMode` (type 0): `7`
+        - `UIClipsToBounds` (type 5): `False`
+        - `UIText` (type 10): `{'$ref': 57}`
+        - `UIFont` (type 10): `{'$ref': 80}`
+        - `UITextColor` (type 10): `{'$ref': 13}`
+        - `UIHighlightedColor` (type 10): `{'$ref': 153}`
+        - `UIShadowOffset` (type 8): `{'$data_hex': '0600000000000080bf', '$floats': [0.0, -1.0]}`
+
+- **UIView** (object 23)
+  - class: `UIView`
+  - frame: (0, 0, 320, 39)
+  - raw UIBounds: (0, 0, 320, 39)
+  - raw UICenter: (160, 19.5)
+  - autoresizing mask: 36
+  - background color: rgba(0, 0, 0, 0)
+  - hidden: not encoded
+  - opaque: not encoded
+  - tag: not encoded
+  - raw values:
+    - `UIBounds` (type 8): `{'$data_hex': '0600000000000000000000a04300001c42', '$floats': [0.0, 0.0, 320.0, 39.0]}`
+    - `UICenter` (type 8): `{'$data_hex': '060000204300009c41', '$floats': [160.0, 19.5]}`
+    - `UISubviews` (type 10): `{'$ref': 49}`
+    - `UIBackgroundColor` (type 10): `{'$ref': 93}`
+    - `UIAutoresizeSubviews` (type 5): `False`
+    - `UIAutoresizingMask` (type 0): `36`
+  - **UILabel** (object 81)
+    - class: `UILabel`
+    - frame: (20, 11, 210, 21)
+    - raw UIBounds: (0, 0, 210, 21)
+    - raw UICenter: (125, 21.5)
+    - autoresizing mask: 36
+    - background color: not encoded
+    - font: Helvetica-Bold 15pt
+    - hidden: not encoded
+    - opaque: not encoded
+    - tag: not encoded
+    - raw values:
+      - `UIBounds` (type 8): `{'$data_hex': '060000000000000000000052430000a841', '$floats': [0.0, 0.0, 210.0, 21.0]}`
+      - `UICenter` (type 8): `{'$data_hex': '060000fa420000ac41', '$floats': [125.0, 21.5]}`
+      - `UIUserInteractionDisabled` (type 5): `False`
+      - `UIAutoresizeSubviews` (type 5): `False`
+      - `UIAutoresizingMask` (type 0): `36`
+      - `UIContentMode` (type 0): `7`
+      - `UIClipsToBounds` (type 5): `False`
+      - `UIText` (type 10): `{'$ref': 170}`
+      - `UIFont` (type 10): `{'$ref': 6}`
+      - `UITextColor` (type 10): `{'$ref': 104}`
+      - `UIShadowColor` (type 10): `{'$ref': 153}`
+      - `UIShadowOffset` (type 8): `{'$data_hex': '06000000000000803f', '$floats': [0.0, 1.0]}`
+  - **UIButton** (object 162)
+    - class: `UIButton`
+    - frame: (238, 9, 62, 25)
+    - raw UIBounds: (0, 0, 62, 25)
+    - raw UICenter: (269, 21.5)
+    - autoresizing mask: 33
+    - background color: not encoded
+    - font: Helvetica-Bold 12pt
+    - hidden: not encoded
+    - opaque: not encoded
+    - tag: not encoded
+    - target/action: `collaboratorsAction:` from object 162 (UIButton) to object 70 (UIProxyObject), event mask 64
+    - raw values:
+      - `UIBounds` (type 8): `{'$data_hex': '060000000000000000000078420000c841', '$floats': [0.0, 0.0, 62.0, 25.0]}`
+      - `UICenter` (type 8): `{'$data_hex': '06008086430000ac41', '$floats': [269.0, 21.5]}`
+      - `UIAutoresizeSubviews` (type 5): `False`
+      - `UIAutoresizingMask` (type 0): `33`
+      - `UIButtonStatefulContent` (type 10): `{'$ref': 139}`
+      - `UIAdjustsImageWhenHighlighted` (type 5): `False`
+      - `UIAdjustsImageWhenDisabled` (type 5): `False`
+      - `UIFont` (type 10): `{'$ref': 99}`
+      - `UITitleShadowOffset` (type 8): `{'$data_hex': '06000000000000803f', '$floats': [0.0, 1.0]}`
+
+- **UIView** (object 35)
+  - class: `UIView`
+  - frame: (0, 0, 320, 87)
+  - raw UIBounds: (0, 0, 320, 87)
+  - raw UICenter: (160, 43.5)
+  - autoresizing mask: 36
+  - background color: rgba(0, 0, 0, 0)
+  - hidden: not encoded
+  - opaque: not encoded
+  - tag: not encoded
+  - raw values:
+    - `UIBounds` (type 8): `{'$data_hex': '0600000000000000000000a0430000ae42', '$floats': [0.0, 0.0, 320.0, 87.0]}`
+    - `UICenter` (type 8): `{'$data_hex': '060000204300002e42', '$floats': [160.0, 43.5]}`
+    - `UISubviews` (type 10): `{'$ref': 56}`
+    - `UIBackgroundColor` (type 10): `{'$ref': 93}`
+    - `UIAutoresizeSubviews` (type 5): `False`
+    - `UIAutoresizingMask` (type 0): `36`
+  - **UIView** (object 118)
+    - class: `UIView`
+    - frame: (10, 11, 300, 65)
+    - raw UIBounds: (0, 0, 300, 65)
+    - raw UICenter: (160, 43.5)
+    - autoresizing mask: 18
+    - background color: rgba(0.847059, 0.847059, 0.847059, 1)
+    - hidden: not encoded
+    - opaque: false
+    - tag: not encoded
+    - raw values:
+      - `UIBounds` (type 8): `{'$data_hex': '0600000000000000000000964300008242', '$floats': [0.0, 0.0, 300.0, 65.0]}`
+      - `UICenter` (type 8): `{'$data_hex': '060000204300002e42', '$floats': [160.0, 43.5]}`
+      - `UISubviews` (type 10): `{'$ref': 140}`
+      - `UIBackgroundColor` (type 10): `{'$ref': 28}`
+      - `UIOpaque` (type 5): `False`
+      - `UIAutoresizeSubviews` (type 5): `False`
+      - `UIAutoresizingMask` (type 0): `18`
+    - **UILabel** (object 33)
+      - class: `UILabel`
+      - frame: (20, 10, 260, 21)
+      - raw UIBounds: (0, 0, 260, 21)
+      - raw UICenter: (150, 20.5)
+      - autoresizing mask: 34
+      - background color: not encoded
+      - font: Helvetica-Bold 15pt
+      - hidden: not encoded
+      - opaque: not encoded
+      - tag: not encoded
+      - raw values:
+        - `UIBounds` (type 8): `{'$data_hex': '060000000000000000000082430000a841', '$floats': [0.0, 0.0, 260.0, 21.0]}`
+        - `UICenter` (type 8): `{'$data_hex': '06000016430000a441', '$floats': [150.0, 20.5]}`
+        - `UIUserInteractionDisabled` (type 5): `False`
+        - `UIAutoresizeSubviews` (type 5): `False`
+        - `UIAutoresizingMask` (type 0): `34`
+        - `UIContentMode` (type 0): `7`
+        - `UIClipsToBounds` (type 5): `False`
+        - `UIText` (type 10): `{'$ref': 144}`
+        - `UIFont` (type 10): `{'$ref': 6}`
+        - `UITextColor` (type 10): `{'$ref': 46}`
+        - `UIShadowColor` (type 10): `{'$ref': 153}`
+        - `UITextAlignment` (type 0): `1`
+    - **UILabel** (object 155)
+      - class: `UILabel`
+      - frame: (20, 34, 260, 21)
+      - raw UIBounds: (0, 0, 260, 21)
+      - raw UICenter: (150, 44.5)
+      - autoresizing mask: 18
+      - background color: not encoded
+      - font: Helvetica 15pt
+      - hidden: not encoded
+      - opaque: not encoded
+      - tag: not encoded
+      - raw values:
+        - `UIBounds` (type 8): `{'$data_hex': '060000000000000000000082430000a841', '$floats': [0.0, 0.0, 260.0, 21.0]}`
+        - `UICenter` (type 8): `{'$data_hex': '060000164300003242', '$floats': [150.0, 44.5]}`
+        - `UIUserInteractionDisabled` (type 5): `False`
+        - `UIAutoresizeSubviews` (type 5): `False`
+        - `UIAutoresizingMask` (type 0): `18`
+        - `UIContentMode` (type 0): `7`
+        - `UIClipsToBounds` (type 5): `False`
+        - `UIText` (type 10): `{'$ref': 62}`
+        - `UIFont` (type 10): `{'$ref': 146}`
+        - `UITextColor` (type 10): `{'$ref': 46}`
+        - `UIShadowColor` (type 10): `{'$ref': 153}`
+        - `UINumberOfLines` (type 0): `0`
+        - `UITextAlignment` (type 0): `1`
+        - `UIPreferredMaxLayoutWidth` (type 6): `260.0`
+
+- **UITableViewCell** (object 39)
+  - class: `UITableViewCell`
+  - frame: (0, 0, 320, 44)
+  - raw UIBounds: (0, 0, 320, 44)
+  - raw UICenter: (160, 22)
+  - autoresizing mask: 36
+  - background color: not encoded
+  - hidden: not encoded
+  - opaque: false
+  - tag: not encoded
+  - raw values:
+    - `UIBounds` (type 8): `{'$data_hex': '0600000000000000000000a04300003042', '$floats': [0.0, 0.0, 320.0, 44.0]}`
+    - `UICenter` (type 8): `{'$data_hex': '06000020430000b041', '$floats': [160.0, 22.0]}`
+    - `UISubviews` (type 10): `{'$ref': 29}`
+    - `UIOpaque` (type 5): `False`
+    - `UIAutoresizeSubviews` (type 5): `False`
+    - `UIAutoresizingMask` (type 0): `36`
+    - `UISelectionStyle` (type 0): `0`
+    - `UIContentView` (type 10): `{'$ref': 77}`
+    - `UITextLabel` (type 9): `None`
+    - `UIDetailTextLabel` (type 9): `None`
+    - `UIImageView` (type 9): `None`
+  - **UITableViewCellContentView** (object 77)
+    - class: `UITableViewCellContentView`
+    - frame: (0, 0, 320, 44)
+    - raw UIBounds: (0, 0, 320, 44)
+    - raw UICenter: (160, 22)
+    - autoresizing mask: not encoded
+    - background color: not encoded
+    - hidden: not encoded
+    - opaque: false
+    - tag: not encoded
+    - raw values:
+      - `UIBounds` (type 8): `{'$data_hex': '0600000000000000000000a04300003042', '$floats': [0.0, 0.0, 320.0, 44.0]}`
+      - `UICenter` (type 8): `{'$data_hex': '06000020430000b041', '$floats': [160.0, 22.0]}`
+      - `UISubviews` (type 10): `{'$ref': 108}`
+      - `UIOpaque` (type 5): `False`
+      - `UIAutoresizeSubviews` (type 5): `False`
+    - **UILabel** (object 47)
+      - class: `UILabel`
+      - frame: (10, 0, 173, 43)
+      - raw UIBounds: (0, 0, 173, 43)
+      - raw UICenter: (96.5, 21.5)
+      - autoresizing mask: 36
+      - background color: not encoded
+      - font: Helvetica-Bold 17pt
+      - hidden: not encoded
+      - opaque: not encoded
+      - tag: not encoded
+      - raw values:
+        - `UIBounds` (type 8): `{'$data_hex': '06000000000000000000002d4300002c42', '$floats': [0.0, 0.0, 173.0, 43.0]}`
+        - `UICenter` (type 8): `{'$data_hex': '060000c1420000ac41', '$floats': [96.5, 21.5]}`
+        - `UIUserInteractionDisabled` (type 5): `False`
+        - `UIAutoresizeSubviews` (type 5): `False`
+        - `UIAutoresizingMask` (type 0): `36`
+        - `UIContentMode` (type 0): `7`
+        - `UIClipsToBounds` (type 5): `False`
+        - `UIText` (type 10): `{'$ref': 91}`
+        - `UIFont` (type 10): `{'$ref': 80}`
+        - `UITextColor` (type 10): `{'$ref': 13}`
+        - `UIHighlightedColor` (type 10): `{'$ref': 153}`
+        - `UIShadowOffset` (type 8): `{'$data_hex': '0600000000000080bf', '$floats': [0.0, -1.0]}`
+    - **UIButton** (object 3)
+      - class: `UIButton`
+      - frame: (214, 9, 99, 25)
+      - raw UIBounds: (0, 0, 99, 25)
+      - raw UICenter: (263.5, 21.5)
+      - autoresizing mask: 33
+      - background color: not encoded
+      - font: Helvetica-Bold 12pt
+      - hidden: not encoded
+      - opaque: not encoded
+      - tag: not encoded
+      - target/action: `leaveSpaceAction:` from object 3 (UIButton) to object 70 (UIProxyObject), event mask 64
+      - raw values:
+        - `UIBounds` (type 8): `{'$data_hex': '0600000000000000000000c6420000c841', '$floats': [0.0, 0.0, 99.0, 25.0]}`
+        - `UICenter` (type 8): `{'$data_hex': '0600c083430000ac41', '$floats': [263.5, 21.5]}`
+        - `UIAutoresizeSubviews` (type 5): `False`
+        - `UIAutoresizingMask` (type 0): `33`
+        - `UIButtonStatefulContent` (type 10): `{'$ref': 137}`
+        - `UIAdjustsImageWhenHighlighted` (type 5): `False`
+        - `UIAdjustsImageWhenDisabled` (type 5): `False`
+        - `UIFont` (type 10): `{'$ref': 99}`
+
+- **UIProxyObject** (object 70)
+  - class: `UIProxyObject`
+  - outlet: `tableView` to object 88 (UITableView)
+  - outlet: `bottomBlurbText` to object 155 (UILabel)
+  - outlet: `bottomBlurbBackground` to object 118 (UIView)
+  - outlet: `contactHeader` to object 106 (UIView)
+  - outlet: `ownerLabel` to object 41 (UILabel)
+  - outlet: `inviteLabel` to object 75 (UILabel)
+  - outlet: `view` to object 126 (UIView)
+  - outlet: `collaboratorsLabel` to object 81 (UILabel)
+  - outlet: `leaveSpaceLabel` to object 47 (UILabel)
+  - outlet: `topBlurbBackground` to object 45 (UIView)
+  - outlet: `bottomBlurbTitle` to object 33 (UILabel)
+  - outlet: `contactLabel` to object 15 (UILabel)
+  - outlet: `inviteCell` to object 19 (UITableViewCell)
+  - outlet: `pendingInvitesHeader` to object 152 (UIView)
+  - outlet: `contactCell` to object 136 (UITableViewCell)
+  - outlet: `ownerCell` to object 116 (UITableViewCell)
+  - outlet: `topBlurbContainer` to object 134 (UIView)
+  - outlet: `collaboratorsButton` to object 162 (UIButton)
+  - outlet: `pendingInvitesLabel` to object 69 (UILabel)
+  - outlet: `bottomBlurbContainer` to object 35 (UIView)
+  - outlet: `leaveSpaceButton` to object 3 (UIButton)
+  - outlet: `contactField` to object 114 (UITextField)
+  - outlet: `ownerHeader` to object 105 (UIView)
+  - outlet: `inviteHeader` to object 122 (UIView)
+  - outlet: `topBlurbText` to object 31 (UILabel)
+  - outlet: `collaboratorsHeader` to object 23 (UIView)
+  - outlet: `leaveSpaceCell` to object 39 (UITableViewCell)
+  - target/action: `collaboratorsAction:` from object 162 (UIButton) to object 70 (UIProxyObject), event mask 64
+  - target/action: `contactAction:` from object 58 (UIButton) to object 70 (UIProxyObject), event mask 64
+  - target/action: `leaveSpaceAction:` from object 3 (UIButton) to object 70 (UIProxyObject), event mask 64
+  - raw values:
+    - `UIProxiedObjectIdentifier` (type 10): `{'$ref': 37}`
+
+- **UIView** (object 105)
+  - class: `UIView`
+  - frame: (0, 0, 320, 39)
+  - raw UIBounds: (0, 0, 320, 39)
+  - raw UICenter: (160, 19.5)
+  - autoresizing mask: 36
+  - background color: rgba(0, 0, 0, 0)
+  - hidden: not encoded
+  - opaque: not encoded
+  - tag: not encoded
+  - raw values:
+    - `UIBounds` (type 8): `{'$data_hex': '0600000000000000000000a04300001c42', '$floats': [0.0, 0.0, 320.0, 39.0]}`
+    - `UICenter` (type 8): `{'$data_hex': '060000204300009c41', '$floats': [160.0, 19.5]}`
+    - `UISubviews` (type 10): `{'$ref': 110}`
+    - `UIBackgroundColor` (type 10): `{'$ref': 93}`
+    - `UIAutoresizeSubviews` (type 5): `False`
+    - `UIAutoresizingMask` (type 0): `36`
+  - **UILabel** (object 41)
+    - class: `UILabel`
+    - frame: (20, 11, 280, 21)
+    - raw UIBounds: (0, 0, 280, 21)
+    - raw UICenter: (160, 21.5)
+    - autoresizing mask: 36
+    - background color: not encoded
+    - font: Helvetica-Bold 15pt
+    - hidden: not encoded
+    - opaque: not encoded
+    - tag: not encoded
+    - raw values:
+      - `UIBounds` (type 8): `{'$data_hex': '06000000000000000000008c430000a841', '$floats': [0.0, 0.0, 280.0, 21.0]}`
+      - `UICenter` (type 8): `{'$data_hex': '06000020430000ac41', '$floats': [160.0, 21.5]}`
+      - `UIUserInteractionDisabled` (type 5): `False`
+      - `UIAutoresizeSubviews` (type 5): `False`
+      - `UIAutoresizingMask` (type 0): `36`
+      - `UIContentMode` (type 0): `7`
+      - `UIClipsToBounds` (type 5): `False`
+      - `UIText` (type 10): `{'$ref': 156}`
+      - `UIFont` (type 10): `{'$ref': 6}`
+      - `UITextColor` (type 10): `{'$ref': 104}`
+      - `UIShadowColor` (type 10): `{'$ref': 153}`
+      - `UIShadowOffset` (type 8): `{'$data_hex': '06000000000000803f', '$floats': [0.0, 1.0]}`
+
+- **UIView** (object 106)
+  - class: `UIView`
+  - frame: (0, 0, 320, 39)
+  - raw UIBounds: (0, 0, 320, 39)
+  - raw UICenter: (160, 19.5)
+  - autoresizing mask: 36
+  - background color: rgba(0, 0, 0, 0)
+  - hidden: not encoded
+  - opaque: not encoded
+  - tag: not encoded
+  - raw values:
+    - `UIBounds` (type 8): `{'$data_hex': '0600000000000000000000a04300001c42', '$floats': [0.0, 0.0, 320.0, 39.0]}`
+    - `UICenter` (type 8): `{'$data_hex': '060000204300009c41', '$floats': [160.0, 19.5]}`
+    - `UISubviews` (type 10): `{'$ref': 67}`
+    - `UIBackgroundColor` (type 10): `{'$ref': 93}`
+    - `UIAutoresizeSubviews` (type 5): `False`
+    - `UIAutoresizingMask` (type 0): `36`
+  - **UILabel** (object 15)
+    - class: `UILabel`
+    - frame: (20, 11, 280, 21)
+    - raw UIBounds: (0, 0, 280, 21)
+    - raw UICenter: (160, 21.5)
+    - autoresizing mask: 36
+    - background color: not encoded
+    - font: Helvetica-Bold 15pt
+    - hidden: not encoded
+    - opaque: not encoded
+    - tag: not encoded
+    - raw values:
+      - `UIBounds` (type 8): `{'$data_hex': '06000000000000000000008c430000a841', '$floats': [0.0, 0.0, 280.0, 21.0]}`
+      - `UICenter` (type 8): `{'$data_hex': '06000020430000ac41', '$floats': [160.0, 21.5]}`
+      - `UIUserInteractionDisabled` (type 5): `False`
+      - `UIAutoresizeSubviews` (type 5): `False`
+      - `UIAutoresizingMask` (type 0): `36`
+      - `UIContentMode` (type 0): `7`
+      - `UIClipsToBounds` (type 5): `False`
+      - `UIText` (type 10): `{'$ref': 87}`
+      - `UIFont` (type 10): `{'$ref': 6}`
+      - `UITextColor` (type 10): `{'$ref': 104}`
+      - `UIShadowColor` (type 10): `{'$ref': 153}`
+      - `UIShadowOffset` (type 8): `{'$data_hex': '06000000000000803f', '$floats': [0.0, 1.0]}`
+
+- **UITableViewCell** (object 116)
+  - class: `UITableViewCell`
+  - frame: (0, 0, 320, 44)
+  - raw UIBounds: (0, 0, 320, 44)
+  - raw UICenter: (160, 22)
+  - autoresizing mask: 36
+  - background color: not encoded
+  - hidden: not encoded
+  - opaque: false
+  - tag: not encoded
+  - raw values:
+    - `UIBounds` (type 8): `{'$data_hex': '0600000000000000000000a04300003042', '$floats': [0.0, 0.0, 320.0, 44.0]}`
+    - `UICenter` (type 8): `{'$data_hex': '06000020430000b041', '$floats': [160.0, 22.0]}`
+    - `UISubviews` (type 10): `{'$ref': 157}`
+    - `UIOpaque` (type 5): `False`
+    - `UIAutoresizeSubviews` (type 5): `False`
+    - `UIAutoresizingMask` (type 0): `36`
+    - `UISelectionStyle` (type 0): `0`
+    - `UIContentView` (type 10): `{'$ref': 161}`
+    - `UITextLabel` (type 10): `{'$ref': 94}`
+    - `UIDetailTextLabel` (type 9): `None`
+    - `UIImageView` (type 9): `None`
+  - **UITableViewCellContentView** (object 161)
+    - class: `UITableViewCellContentView`
+    - frame: (0, 0, 320, 44)
+    - raw UIBounds: (0, 0, 320, 44)
+    - raw UICenter: (160, 22)
+    - autoresizing mask: not encoded
+    - background color: not encoded
+    - hidden: not encoded
+    - opaque: false
+    - tag: not encoded
+    - raw values:
+      - `UIBounds` (type 8): `{'$data_hex': '0600000000000000000000a04300003042', '$floats': [0.0, 0.0, 320.0, 44.0]}`
+      - `UICenter` (type 8): `{'$data_hex': '06000020430000b041', '$floats': [160.0, 22.0]}`
+      - `UISubviews` (type 10): `{'$ref': 63}`
+      - `UIOpaque` (type 5): `False`
+      - `UIAutoresizeSubviews` (type 5): `False`
+    - **UILabel** (object 94)
+      - class: `UILabel`
+      - frame: (10, 0, 300, 44)
+      - raw UIBounds: (0, 0, 300, 44)
+      - raw UICenter: (160, 22)
+      - autoresizing mask: not encoded
+      - background color: not encoded
+      - font: Helvetica-Bold 17pt
+      - hidden: not encoded
+      - opaque: not encoded
+      - tag: not encoded
+      - raw values:
+        - `UIBounds` (type 8): `{'$data_hex': '0600000000000000000000964300003042', '$floats': [0.0, 0.0, 300.0, 44.0]}`
+        - `UICenter` (type 8): `{'$data_hex': '06000020430000b041', '$floats': [160.0, 22.0]}`
+        - `UIMultipleTouchEnabled` (type 5): `False`
+        - `UIAutoresizeSubviews` (type 5): `False`
+        - `UIContentMode` (type 0): `7`
+        - `UIClipsToBounds` (type 5): `False`
+        - `UIText` (type 10): `{'$ref': 123}`
+        - `UIFont` (type 10): `{'$ref': 80}`
+        - `UITextColor` (type 10): `{'$ref': 13}`
+        - `UIHighlightedColor` (type 10): `{'$ref': 153}`
+        - `UIShadowOffset` (type 8): `{'$data_hex': '0600000000000080bf', '$floats': [0.0, -1.0]}`
+
+- **UIView** (object 122)
+  - class: `UIView`
+  - frame: (0, 0, 320, 39)
+  - raw UIBounds: (0, 0, 320, 39)
+  - raw UICenter: (160, 19.5)
+  - autoresizing mask: 36
+  - background color: rgba(0, 0, 0, 0)
+  - hidden: not encoded
+  - opaque: not encoded
+  - tag: not encoded
+  - raw values:
+    - `UIBounds` (type 8): `{'$data_hex': '0600000000000000000000a04300001c42', '$floats': [0.0, 0.0, 320.0, 39.0]}`
+    - `UICenter` (type 8): `{'$data_hex': '060000204300009c41', '$floats': [160.0, 19.5]}`
+    - `UISubviews` (type 10): `{'$ref': 115}`
+    - `UIBackgroundColor` (type 10): `{'$ref': 93}`
+    - `UIAutoresizeSubviews` (type 5): `False`
+    - `UIAutoresizingMask` (type 0): `36`
+  - **UILabel** (object 75)
+    - class: `UILabel`
+    - frame: (20, 11, 280, 21)
+    - raw UIBounds: (0, 0, 280, 21)
+    - raw UICenter: (160, 21.5)
+    - autoresizing mask: 36
+    - background color: not encoded
+    - font: Helvetica-Bold 15pt
+    - hidden: not encoded
+    - opaque: not encoded
+    - tag: not encoded
+    - raw values:
+      - `UIBounds` (type 8): `{'$data_hex': '06000000000000000000008c430000a841', '$floats': [0.0, 0.0, 280.0, 21.0]}`
+      - `UICenter` (type 8): `{'$data_hex': '06000020430000ac41', '$floats': [160.0, 21.5]}`
+      - `UIUserInteractionDisabled` (type 5): `False`
+      - `UIAutoresizeSubviews` (type 5): `False`
+      - `UIAutoresizingMask` (type 0): `36`
+      - `UIContentMode` (type 0): `7`
+      - `UIClipsToBounds` (type 5): `False`
+      - `UIText` (type 10): `{'$ref': 20}`
+      - `UIFont` (type 10): `{'$ref': 6}`
+      - `UITextColor` (type 10): `{'$ref': 104}`
+      - `UIShadowColor` (type 10): `{'$ref': 153}`
+      - `UIShadowOffset` (type 8): `{'$data_hex': '06000000000000803f', '$floats': [0.0, 1.0]}`
+
+- **UIView** (object 126)
+  - class: `UIView`
+  - frame: (0, 0, 320, 416)
+  - raw UIBounds: (0, 0, 320, 416)
+  - raw UICenter: (160, 208)
+  - autoresizing mask: 18
+  - background color: rgba(1, 1, 1, 1)
+  - hidden: not encoded
+  - opaque: false
+  - tag: not encoded
+  - raw values:
+    - `UIBounds` (type 8): `{'$data_hex': '0600000000000000000000a0430000d043', '$floats': [0.0, 0.0, 320.0, 416.0]}`
+    - `UICenter` (type 8): `{'$data_hex': '060000204300005043', '$floats': [160.0, 208.0]}`
+    - `UISubviews` (type 10): `{'$ref': 48}`
+    - `UIBackgroundColor` (type 10): `{'$ref': 153}`
+    - `UIOpaque` (type 5): `False`
+    - `UIAutoresizeSubviews` (type 5): `False`
+    - `UIAutoresizingMask` (type 0): `18`
+  - **UITableView** (object 88)
+    - class: `UITableView`
+    - frame: (0, 0, 320, 416)
+    - raw UIBounds: (0, 0, 320, 416)
+    - raw UICenter: (160, 208)
+    - autoresizing mask: 18
+    - background color: rgba(0.92, 0.92, 0.92, 1)
+    - hidden: not encoded
+    - opaque: false
+    - tag: not encoded
+    - outlet: `dataSource` to object 70 (UIProxyObject)
+    - outlet: `delegate` to object 70 (UIProxyObject)
+    - raw values:
+      - `UIBounds` (type 8): `{'$data_hex': '0600000000000000000000a0430000d043', '$floats': [0.0, 0.0, 320.0, 416.0]}`
+      - `UICenter` (type 8): `{'$data_hex': '060000204300005043', '$floats': [160.0, 208.0]}`
+      - `UIBackgroundColor` (type 10): `{'$ref': 100}`
+      - `UIOpaque` (type 5): `False`
+      - `UIAutoresizeSubviews` (type 5): `False`
+      - `UIAutoresizingMask` (type 0): `18`
+      - `UIClipsToBounds` (type 5): `False`
+      - `UIBouncesZoom` (type 5): `False`
+      - `UIAlwaysBounceVertical` (type 5): `False`
+      - `UIContentSize` (type 8): `{'$data_hex': '060000a04300002042', '$floats': [320.0, 40.0]}`
+      - `UIStyle` (type 0): `1`
+      - `UISeparatorStyle` (type 0): `1`
+      - `UISeparatorStyleIOS5AndLater` (type 0): `2`
+      - `UIShowsSelectionImmediatelyOnTouchBegin` (type 5): `False`
+      - `UIUseCustomBackgroundView` (type 5): `False`
+
+- **UIView** (object 134)
+  - class: `UIView`
+  - frame: (0, 0, 320, 62)
+  - raw UIBounds: (0, 0, 320, 62)
+  - raw UICenter: (160, 31)
+  - autoresizing mask: 36
+  - background color: rgba(0, 0, 0, 0)
+  - hidden: not encoded
+  - opaque: not encoded
+  - tag: not encoded
+  - raw values:
+    - `UIBounds` (type 8): `{'$data_hex': '0600000000000000000000a04300007842', '$floats': [0.0, 0.0, 320.0, 62.0]}`
+    - `UICenter` (type 8): `{'$data_hex': '06000020430000f841', '$floats': [160.0, 31.0]}`
+    - `UISubviews` (type 10): `{'$ref': 135}`
+    - `UIBackgroundColor` (type 10): `{'$ref': 93}`
+    - `UIAutoresizeSubviews` (type 5): `False`
+    - `UIAutoresizingMask` (type 0): `36`
+  - **UIView** (object 45)
+    - class: `UIView`
+    - frame: (10, 11, 300, 40)
+    - raw UIBounds: (0, 0, 300, 40)
+    - raw UICenter: (160, 31)
+    - autoresizing mask: 18
+    - background color: rgba(0.847059, 0.847059, 0.847059, 1)
+    - hidden: not encoded
+    - opaque: false
+    - tag: not encoded
+    - raw values:
+      - `UIBounds` (type 8): `{'$data_hex': '0600000000000000000000964300002042', '$floats': [0.0, 0.0, 300.0, 40.0]}`
+      - `UICenter` (type 8): `{'$data_hex': '06000020430000f841', '$floats': [160.0, 31.0]}`
+      - `UISubviews` (type 10): `{'$ref': 50}`
+      - `UIBackgroundColor` (type 10): `{'$ref': 28}`
+      - `UIOpaque` (type 5): `False`
+      - `UIAutoresizeSubviews` (type 5): `False`
+      - `UIAutoresizingMask` (type 0): `18`
+    - **UILabel** (object 31)
+      - class: `UILabel`
+      - frame: (20, 10, 260, 21)
+      - raw UIBounds: (0, 0, 260, 21)
+      - raw UICenter: (150, 20.5)
+      - autoresizing mask: 18
+      - background color: not encoded
+      - font: Helvetica 15pt
+      - hidden: not encoded
+      - opaque: not encoded
+      - tag: not encoded
+      - raw values:
+        - `UIBounds` (type 8): `{'$data_hex': '060000000000000000000082430000a841', '$floats': [0.0, 0.0, 260.0, 21.0]}`
+        - `UICenter` (type 8): `{'$data_hex': '06000016430000a441', '$floats': [150.0, 20.5]}`
+        - `UIUserInteractionDisabled` (type 5): `False`
+        - `UIAutoresizeSubviews` (type 5): `False`
+        - `UIAutoresizingMask` (type 0): `18`
+        - `UIContentMode` (type 0): `7`
+        - `UIClipsToBounds` (type 5): `False`
+        - `UIText` (type 10): `{'$ref': 72}`
+        - `UIFont` (type 10): `{'$ref': 146}`
+        - `UITextColor` (type 10): `{'$ref': 46}`
+        - `UIShadowColor` (type 10): `{'$ref': 153}`
+        - `UINumberOfLines` (type 0): `0`
+        - `UITextAlignment` (type 0): `1`
+        - `UIPreferredMaxLayoutWidth` (type 6): `260.0`
+
+- **UITableViewCell** (object 136)
+  - class: `UITableViewCell`
+  - frame: (0, 0, 320, 44)
+  - raw UIBounds: (0, 0, 320, 44)
+  - raw UICenter: (160, 22)
+  - autoresizing mask: 36
+  - background color: not encoded
+  - hidden: not encoded
+  - opaque: false
+  - tag: not encoded
+  - raw values:
+    - `UIBounds` (type 8): `{'$data_hex': '0600000000000000000000a04300003042', '$floats': [0.0, 0.0, 320.0, 44.0]}`
+    - `UICenter` (type 8): `{'$data_hex': '06000020430000b041', '$floats': [160.0, 22.0]}`
+    - `UISubviews` (type 10): `{'$ref': 149}`
+    - `UIOpaque` (type 5): `False`
+    - `UIAutoresizeSubviews` (type 5): `False`
+    - `UIAutoresizingMask` (type 0): `36`
+    - `UISelectionStyle` (type 0): `0`
+    - `UIContentView` (type 10): `{'$ref': 73}`
+    - `UITextLabel` (type 9): `None`
+    - `UIDetailTextLabel` (type 9): `None`
+    - `UIImageView` (type 9): `None`
+  - **UITableViewCellContentView** (object 73)
+    - class: `UITableViewCellContentView`
+    - frame: (0, 0, 320, 44)
+    - raw UIBounds: (0, 0, 320, 44)
+    - raw UICenter: (160, 22)
+    - autoresizing mask: not encoded
+    - background color: not encoded
+    - hidden: not encoded
+    - opaque: false
+    - tag: not encoded
+    - raw values:
+      - `UIBounds` (type 8): `{'$data_hex': '0600000000000000000000a04300003042', '$floats': [0.0, 0.0, 320.0, 44.0]}`
+      - `UICenter` (type 8): `{'$data_hex': '06000020430000b041', '$floats': [160.0, 22.0]}`
+      - `UISubviews` (type 10): `{'$ref': 102}`
+      - `UIOpaque` (type 5): `False`
+      - `UIAutoresizeSubviews` (type 5): `False`
+    - **UITextField** (object 114)
+      - class: `UITextField`
+      - frame: (10, 6, 266, 31)
+      - raw UIBounds: (0, 0, 266, 31)
+      - raw UICenter: (143, 21.5)
+      - autoresizing mask: 38
+      - background color: not encoded
+      - font: Helvetica 17pt
+      - hidden: not encoded
+      - opaque: not encoded
+      - tag: not encoded
+      - outlet: `delegate` to object 70 (UIProxyObject)
+      - raw values:
+        - `UIBounds` (type 8): `{'$data_hex': '060000000000000000000085430000f841', '$floats': [0.0, 0.0, 266.0, 31.0]}`
+        - `UICenter` (type 8): `{'$data_hex': '0600000f430000ac41', '$floats': [143.0, 21.5]}`
+        - `UIAutoresizeSubviews` (type 5): `False`
+        - `UIAutoresizingMask` (type 0): `38`
+        - `UIClipsToBounds` (type 5): `False`
+        - `UIContentHorizontalAlignment` (type 0): `1`
+        - `UIFont` (type 10): `{'$ref': 10}`
+        - `UIText` (type 10): `{'$ref': 158}`
+        - `UITextColor` (type 10): `{'$ref': 18}`
+        - `UIMinimumFontSize` (type 6): `17.0`
+        - `UIClearButtonOffset` (type 8): `{'$data_hex': '06000040400000803f', '$floats': [3.0, 1.0]}`
+        - `UIAutocorrectionType` (type 0): `1`
+        - `UIKeyboardType` (type 0): `7`
+        - `UIReturnKeyType` (type 0): `7`
+    - **UIButton** (object 58)
+      - class: `UIButton`
+      - frame: (284, 0, 36, 43)
+      - raw UIBounds: (0, 0, 36, 43)
+      - raw UICenter: (302, 21.5)
+      - autoresizing mask: 33
+      - background color: not encoded
+      - font: Helvetica-Bold 15pt
+      - hidden: not encoded
+      - opaque: not encoded
+      - tag: not encoded
+      - target/action: `contactAction:` from object 58 (UIButton) to object 70 (UIProxyObject), event mask 64
+      - raw values:
+        - `UIBounds` (type 8): `{'$data_hex': '0600000000000000000000104200002c42', '$floats': [0.0, 0.0, 36.0, 43.0]}`
+        - `UICenter` (type 8): `{'$data_hex': '06000097430000ac41', '$floats': [302.0, 21.5]}`
+        - `UIAutoresizeSubviews` (type 5): `False`
+        - `UIAutoresizingMask` (type 0): `33`
+        - `UIContentHorizontalAlignment` (type 0): `1`
+        - `UIButtonStatefulContent` (type 10): `{'$ref': 97}`
+        - `UIAdjustsImageWhenHighlighted` (type 5): `False`
+        - `UIAdjustsImageWhenDisabled` (type 5): `False`
+        - `UIFont` (type 10): `{'$ref': 6}`
+
+- **UIView** (object 152)
+  - class: `UIView`
+  - frame: (0, 0, 320, 39)
+  - raw UIBounds: (0, 0, 320, 39)
+  - raw UICenter: (160, 19.5)
+  - autoresizing mask: 36
+  - background color: rgba(0, 0, 0, 0)
+  - hidden: not encoded
+  - opaque: not encoded
+  - tag: not encoded
+  - raw values:
+    - `UIBounds` (type 8): `{'$data_hex': '0600000000000000000000a04300001c42', '$floats': [0.0, 0.0, 320.0, 39.0]}`
+    - `UICenter` (type 8): `{'$data_hex': '060000204300009c41', '$floats': [160.0, 19.5]}`
+    - `UISubviews` (type 10): `{'$ref': 17}`
+    - `UIBackgroundColor` (type 10): `{'$ref': 93}`
+    - `UIAutoresizeSubviews` (type 5): `False`
+    - `UIAutoresizingMask` (type 0): `36`
+  - **UILabel** (object 69)
+    - class: `UILabel`
+    - frame: (20, 11, 280, 21)
+    - raw UIBounds: (0, 0, 280, 21)
+    - raw UICenter: (160, 21.5)
+    - autoresizing mask: 36
+    - background color: not encoded
+    - font: Helvetica-Bold 15pt
+    - hidden: not encoded
+    - opaque: not encoded
+    - tag: not encoded
+    - raw values:
+      - `UIBounds` (type 8): `{'$data_hex': '06000000000000000000008c430000a841', '$floats': [0.0, 0.0, 280.0, 21.0]}`
+      - `UICenter` (type 8): `{'$data_hex': '06000020430000ac41', '$floats': [160.0, 21.5]}`
+      - `UIUserInteractionDisabled` (type 5): `False`
+      - `UIAutoresizeSubviews` (type 5): `False`
+      - `UIAutoresizingMask` (type 0): `36`
+      - `UIContentMode` (type 0): `7`
+      - `UIClipsToBounds` (type 5): `False`
+      - `UIText` (type 10): `{'$ref': 16}`
+      - `UIFont` (type 10): `{'$ref': 6}`
+      - `UITextColor` (type 10): `{'$ref': 104}`
+      - `UIShadowColor` (type 10): `{'$ref': 153}`
+      - `UIShadowOffset` (type 8): `{'$data_hex': '06000000000000803f', '$floats': [0.0, 1.0]}`
+
+## Supporting objects
+
+These objects carry no geometry, contain no view, and hold no
+connection. They remain here because a reader auditing an
+interpretation follows a reference into them.
+
+- **NSObject** (object 0)
+  - class: `NSObject`
+  - raw values:
+    - `UINibTopLevelObjectsKey` (type 10): `{'$ref': 84}`
+    - `UINibObjectsKey` (type 10): `{'$ref': 22}`
+    - `UINibConnectionsKey` (type 10): `{'$ref': 65}`
+    - `UINibVisibleWindowsKey` (type 10): `{'$ref': 38}`
+    - `UINibAccessibilityConfigurationsKey` (type 10): `{'$ref': 38}`
+    - `UINibKeyValuePairsKey` (type 10): `{'$ref': 38}`
+
+- **NSString** (object 1)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '6f776e65724c6162656c', '$text': 'ownerLabel'}`
+
+- **UIImageNibPlaceholder** (object 2)
+  - class: `UIImageNibPlaceholder`
+  - raw values:
+    - `UIImageWidth` (type 6): `1.0`
+    - `UIImageHeight` (type 6): `1.0`
+    - `UIResourceName` (type 10): `{'$ref': 86}`
+
+- **UIRuntimeOutletConnection** (object 4)
+  - class: `UIRuntimeOutletConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 154}`
+    - `UISource` (type 10): `{'$ref': 70}`
+    - `UIDestination` (type 10): `{'$ref': 88}`
+
+- **UIRuntimeOutletConnection** (object 5)
+  - class: `UIRuntimeOutletConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 60}`
+    - `UISource` (type 10): `{'$ref': 70}`
+    - `UIDestination` (type 10): `{'$ref': 155}`
+
+- **UIFont** (object 6)
+  - class: `UIFont`
+  - raw values:
+    - `UIFontName` (type 10): `{'$ref': 76}`
+    - `UIFontPointSize` (type 7): `15.0`
+    - `UIFontTraits` (type 0): `2`
+    - `UISystemFont` (type 5): `False`
+    - `NSName` (type 10): `{'$ref': 76}`
+    - `NSSize` (type 7): `15.0`
+
+- **NSString** (object 7)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '636f6c6c61626f7261746f7273427574746f6e', '$text': 'collaboratorsButton'}`
+
+- **NSString** (object 8)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '636f6e746163744c6162656c', '$text': 'contactLabel'}`
+
+- **UIRuntimeOutletConnection** (object 9)
+  - class: `UIRuntimeOutletConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 89}`
+    - `UISource` (type 10): `{'$ref': 70}`
+    - `UIDestination` (type 10): `{'$ref': 118}`
+
+- **UIFont** (object 10)
+  - class: `UIFont`
+  - raw values:
+    - `UIFontName` (type 10): `{'$ref': 66}`
+    - `UIFontPointSize` (type 7): `17.0`
+    - `UIFontTraits` (type 0): `0`
+    - `UISystemFont` (type 5): `False`
+    - `NSName` (type 10): `{'$ref': 66}`
+    - `NSSize` (type 7): `17.0`
+
+- **UIRuntimeOutletConnection** (object 11)
+  - class: `UIRuntimeOutletConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 36}`
+    - `UISource` (type 10): `{'$ref': 70}`
+    - `UIDestination` (type 10): `{'$ref': 106}`
+
+- **UIColor** (object 12)
+  - class: `UIColor`
+  - raw values:
+    - `UIColorComponentCount` (type 0): `4`
+    - `UIRed` (type 6): `0.19607843458652496`
+    - `UIGreen` (type 6): `0.30980393290519714`
+    - `UIBlue` (type 6): `0.5215686559677124`
+    - `UIAlpha` (type 6): `1.0`
+    - `NSRGB` (type 8): `{'$data_hex': '302e31393620302e333120302e353232', '$text': '0.196 0.31 0.522'}`
+    - `NSColorSpace` (type 0): `2`
+
+- **UIColor** (object 13)
+  - class: `UIColor`
+  - raw values:
+    - `UISystemColorName` (type 10): `{'$ref': 27}`
+    - `UIColorComponentCount` (type 0): `2`
+    - `UIWhite` (type 6): `0.0`
+    - `UIAlpha` (type 6): `1.0`
+    - `NSWhite` (type 8): `{'$data_hex': '30', '$text': '0'}`
+    - `NSColorSpace` (type 0): `4`
+
+- **NSString** (object 14)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '70656e64696e67496e76697465734c6162656c', '$text': 'pendingInvitesLabel'}`
+
+- **NSMutableString** (object 16)
+  - class: `NSMutableString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '4c6162656c', '$text': 'Label'}`
+
+- **NSMutableArray** (object 17)
+  - class: `NSMutableArray`
+  - raw values:
+    - `NSInlinedValue` (type 5): `False`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 69}`
+
+- **UIColor** (object 18)
+  - class: `UIColor`
+  - raw values:
+    - `UIColorComponentCount` (type 0): `4`
+    - `UIRed` (type 6): `0.0`
+    - `UIGreen` (type 6): `0.0`
+    - `UIBlue` (type 6): `0.0`
+    - `UIAlpha` (type 6): `1.0`
+    - `NSRGB` (type 8): `{'$data_hex': '3020302030', '$text': '0 0 0'}`
+    - `NSColorSpace` (type 0): `2`
+
+- **NSMutableString** (object 20)
+  - class: `NSMutableString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '4c6162656c', '$text': 'Label'}`
+
+- **UIRuntimeOutletConnection** (object 21)
+  - class: `UIRuntimeOutletConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 1}`
+    - `UISource` (type 10): `{'$ref': 70}`
+    - `UIDestination` (type 10): `{'$ref': 41}`
+
+- **NSArray** (object 22)
+  - class: `NSArray`
+  - raw values:
+    - `NSInlinedValue` (type 5): `False`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 70}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 109}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 126}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 122}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 106}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 23}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 136}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 19}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 39}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 134}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 35}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 105}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 116}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 152}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 88}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 75}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 15}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 81}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 162}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 114}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 58}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 119}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 47}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 3}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 45}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 118}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 41}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 94}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 69}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 31}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 33}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 155}`
+
+- **UIRuntimeOutletConnection** (object 24)
+  - class: `UIRuntimeOutletConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 169}`
+    - `UISource` (type 10): `{'$ref': 70}`
+    - `UIDestination` (type 10): `{'$ref': 75}`
+
+- **NSString** (object 25)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '696e76697465486561646572', '$text': 'inviteHeader'}`
+
+- **NSString** (object 26)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '6f776e6572486561646572', '$text': 'ownerHeader'}`
+
+- **NSString** (object 27)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '626c61636b436f6c6f72', '$text': 'blackColor'}`
+
+- **UIColor** (object 28)
+  - class: `UIColor`
+  - raw values:
+    - `UIColorComponentCount` (type 0): `4`
+    - `UIRed` (type 6): `0.8470588326454163`
+    - `UIGreen` (type 6): `0.8470588326454163`
+    - `UIBlue` (type 6): `0.8470588326454163`
+    - `UIAlpha` (type 6): `1.0`
+    - `NSRGB` (type 8): `{'$data_hex': '302e38343720302e38343720302e383437', '$text': '0.847 0.847 0.847'}`
+    - `NSColorSpace` (type 0): `2`
+
+- **NSMutableArray** (object 29)
+  - class: `NSMutableArray`
+  - raw values:
+    - `NSInlinedValue` (type 5): `False`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 77}`
+
+- **UIRuntimeOutletConnection** (object 30)
+  - class: `UIRuntimeOutletConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 42}`
+    - `UISource` (type 10): `{'$ref': 70}`
+    - `UIDestination` (type 10): `{'$ref': 126}`
+
+- **UIRuntimeOutletConnection** (object 32)
+  - class: `UIRuntimeOutletConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 121}`
+    - `UISource` (type 10): `{'$ref': 70}`
+    - `UIDestination` (type 10): `{'$ref': 81}`
+
+- **NSString** (object 34)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '626f74746f6d426c7572625469746c65', '$text': 'bottomBlurbTitle'}`
+
+- **NSString** (object 36)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '636f6e74616374486561646572', '$text': 'contactHeader'}`
+
+- **NSString** (object 37)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '494246696c65734f776e6572', '$text': 'IBFilesOwner'}`
+
+- **NSArray** (object 38)
+  - class: `NSArray`
+  - raw values:
+    - `NSInlinedValue` (type 5): `False`
+
+- **UIRuntimeOutletConnection** (object 40)
+  - class: `UIRuntimeOutletConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 124}`
+    - `UISource` (type 10): `{'$ref': 114}`
+    - `UIDestination` (type 10): `{'$ref': 70}`
+
+- **NSString** (object 42)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '76696577', '$text': 'view'}`
+
+- **UIRuntimeEventConnection** (object 43)
+  - class: `UIRuntimeEventConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 160}`
+    - `UISource` (type 10): `{'$ref': 162}`
+    - `UIDestination` (type 10): `{'$ref': 70}`
+    - `UIEventMask` (type 0): `64`
+
+- **UIRuntimeOutletConnection** (object 44)
+  - class: `UIRuntimeOutletConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 79}`
+    - `UISource` (type 10): `{'$ref': 70}`
+    - `UIDestination` (type 10): `{'$ref': 47}`
+
+- **UIColor** (object 46)
+  - class: `UIColor`
+  - raw values:
+    - `UIColorComponentCount` (type 0): `4`
+    - `UIRed` (type 6): `0.46666666865348816`
+    - `UIGreen` (type 6): `0.46666666865348816`
+    - `UIBlue` (type 6): `0.46666666865348816`
+    - `UIAlpha` (type 6): `1.0`
+    - `NSRGB` (type 8): `{'$data_hex': '302e34363720302e34363720302e343637', '$text': '0.467 0.467 0.467'}`
+    - `NSColorSpace` (type 0): `2`
+
+- **NSMutableArray** (object 48)
+  - class: `NSMutableArray`
+  - raw values:
+    - `NSInlinedValue` (type 5): `False`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 88}`
+
+- **NSMutableArray** (object 49)
+  - class: `NSMutableArray`
+  - raw values:
+    - `NSInlinedValue` (type 5): `False`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 81}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 162}`
+
+- **NSMutableArray** (object 50)
+  - class: `NSMutableArray`
+  - raw values:
+    - `NSInlinedValue` (type 5): `False`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 31}`
+
+- **UIRuntimeOutletConnection** (object 51)
+  - class: `UIRuntimeOutletConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 131}`
+    - `UISource` (type 10): `{'$ref': 70}`
+    - `UIDestination` (type 10): `{'$ref': 45}`
+
+- **NSString** (object 52)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '696e7669746543656c6c', '$text': 'inviteCell'}`
+
+- **UIRuntimeEventConnection** (object 53)
+  - class: `UIRuntimeEventConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 151}`
+    - `UISource` (type 10): `{'$ref': 58}`
+    - `UIDestination` (type 10): `{'$ref': 70}`
+    - `UIEventMask` (type 0): `64`
+
+- **UIRuntimeOutletConnection** (object 54)
+  - class: `UIRuntimeOutletConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 34}`
+    - `UISource` (type 10): `{'$ref': 70}`
+    - `UIDestination` (type 10): `{'$ref': 33}`
+
+- **NSString** (object 55)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '6f776e657243656c6c', '$text': 'ownerCell'}`
+
+- **NSMutableArray** (object 56)
+  - class: `NSMutableArray`
+  - raw values:
+    - `NSInlinedValue` (type 5): `False`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 118}`
+
+- **NSMutableString** (object 57)
+  - class: `NSMutableString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '5469746c65', '$text': 'Title'}`
+
+- **UIRuntimeOutletConnection** (object 59)
+  - class: `UIRuntimeOutletConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 8}`
+    - `UISource` (type 10): `{'$ref': 70}`
+    - `UIDestination` (type 10): `{'$ref': 15}`
+
+- **NSString** (object 60)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '626f74746f6d426c75726254657874', '$text': 'bottomBlurbText'}`
+
+- **UIRuntimeOutletConnection** (object 61)
+  - class: `UIRuntimeOutletConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 52}`
+    - `UISource` (type 10): `{'$ref': 70}`
+    - `UIDestination` (type 10): `{'$ref': 19}`
+
+- **NSMutableString** (object 62)
+  - class: `NSMutableString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '4c6162656c', '$text': 'Label'}`
+
+- **NSMutableArray** (object 63)
+  - class: `NSMutableArray`
+  - raw values:
+    - `NSInlinedValue` (type 5): `False`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 94}`
+
+- **NSString** (object 64)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '636f6e746163744669656c64', '$text': 'contactField'}`
+
+- **NSArray** (object 65)
+  - class: `NSArray`
+  - raw values:
+    - `NSInlinedValue` (type 5): `False`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 43}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 53}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 117}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 9}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 128}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 5}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 54}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 101}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 150}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 32}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 78}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 133}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 11}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 59}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 112}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 164}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 40}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 61}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 143}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 24}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 130}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 166}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 44}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 85}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 142}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 21}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 71}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 125}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 4}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 51}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 98}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 148}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 30}`
+
+- **NSString** (object 66)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '48656c766574696361', '$text': 'Helvetica'}`
+
+- **NSMutableArray** (object 67)
+  - class: `NSMutableArray`
+  - raw values:
+    - `NSInlinedValue` (type 5): `False`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 15}`
+
+- **NSString** (object 68)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '746f70426c75726254657874', '$text': 'topBlurbText'}`
+
+- **UIRuntimeOutletConnection** (object 71)
+  - class: `UIRuntimeOutletConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 141}`
+    - `UISource` (type 10): `{'$ref': 70}`
+    - `UIDestination` (type 10): `{'$ref': 152}`
+
+- **NSMutableString** (object 72)
+  - class: `NSMutableString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '4c6162656c', '$text': 'Label'}`
+
+- **UIButtonContent** (object 74)
+  - class: `UIButtonContent`
+  - raw values:
+    - `UITitleColor` (type 10): `{'$ref': 153}`
+
+- **NSString** (object 76)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '48656c7665746963612d426f6c64', '$text': 'Helvetica-Bold'}`
+
+- **UIRuntimeOutletConnection** (object 78)
+  - class: `UIRuntimeOutletConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 83}`
+    - `UISource` (type 10): `{'$ref': 70}`
+    - `UIDestination` (type 10): `{'$ref': 136}`
+
+- **NSString** (object 79)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '6c6561766553706163654c6162656c', '$text': 'leaveSpaceLabel'}`
+
+- **UIFont** (object 80)
+  - class: `UIFont`
+  - raw values:
+    - `UIFontName` (type 10): `{'$ref': 76}`
+    - `UIFontPointSize` (type 7): `17.0`
+    - `UIFontTraits` (type 0): `2`
+    - `UISystemFont` (type 5): `False`
+    - `NSName` (type 10): `{'$ref': 76}`
+    - `NSSize` (type 7): `17.0`
+
+- **NSString** (object 82)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '626f74746f6d426c757262436f6e7461696e6572', '$text': 'bottomBlurbContainer'}`
+
+- **NSString** (object 83)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '636f6e7461637443656c6c', '$text': 'contactCell'}`
+
+- **NSArray** (object 84)
+  - class: `NSArray`
+  - raw values:
+    - `NSInlinedValue` (type 5): `False`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 70}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 109}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 126}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 122}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 106}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 23}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 136}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 19}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 39}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 134}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 35}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 105}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 116}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 152}`
+
+- **UIRuntimeOutletConnection** (object 85)
+  - class: `UIRuntimeOutletConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 55}`
+    - `UISource` (type 10): `{'$ref': 70}`
+    - `UIDestination` (type 10): `{'$ref': 116}`
+
+- **NSString** (object 86)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '53747265616d456469746f725f436f6e746163742e706e67', '$text': 'StreamEditor_Contact.png'}`
+
+- **NSMutableString** (object 87)
+  - class: `NSMutableString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '4c6162656c', '$text': 'Label'}`
+
+- **NSString** (object 89)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '626f74746f6d426c7572624261636b67726f756e64', '$text': 'bottomBlurbBackground'}`
+
+- **UIButtonContent** (object 90)
+  - class: `UIButtonContent`
+  - raw values:
+    - `UITitle` (type 10): `{'$ref': 159}`
+    - `UITitleColor` (type 10): `{'$ref': 153}`
+    - `UIShadowColor` (type 10): `{'$ref': 132}`
+
+- **NSMutableString** (object 91)
+  - class: `NSMutableString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '4c6162656c', '$text': 'Label'}`
+
+- **NSString** (object 92)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '746f70426c757262436f6e7461696e6572', '$text': 'topBlurbContainer'}`
+
+- **UIColor** (object 93)
+  - class: `UIColor`
+  - raw values:
+    - `UIColorComponentCount` (type 0): `4`
+    - `UIRed` (type 6): `0.0`
+    - `UIGreen` (type 6): `0.0`
+    - `UIBlue` (type 6): `0.0`
+    - `UIAlpha` (type 6): `0.0`
+    - `NSRGB` (type 8): `{'$data_hex': '30203020302030', '$text': '0 0 0 0'}`
+    - `NSColorSpace` (type 0): `2`
+
+- **NSNumber** (object 95)
+  - class: `NSNumber`
+  - raw values:
+    - `NS.intval` (type 0): `0`
+
+- **UIButtonContent** (object 96)
+  - class: `UIButtonContent`
+  - raw values:
+    - `UITitle` (type 10): `{'$ref': 120}`
+    - `UITitleColor` (type 10): `{'$ref': 153}`
+    - `UIShadowColor` (type 10): `{'$ref': 132}`
+
+- **NSMutableDictionary** (object 97)
+  - class: `NSMutableDictionary`
+  - raw values:
+    - `NSInlinedValue` (type 5): `False`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 95}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 171}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 167}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 74}`
+
+- **UIRuntimeOutletConnection** (object 98)
+  - class: `UIRuntimeOutletConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 92}`
+    - `UISource` (type 10): `{'$ref': 70}`
+    - `UIDestination` (type 10): `{'$ref': 134}`
+
+- **UIFont** (object 99)
+  - class: `UIFont`
+  - raw values:
+    - `UIFontName` (type 10): `{'$ref': 76}`
+    - `UIFontPointSize` (type 7): `12.0`
+    - `UIFontTraits` (type 0): `2`
+    - `UISystemFont` (type 5): `False`
+    - `NSName` (type 10): `{'$ref': 76}`
+    - `NSSize` (type 7): `12.0`
+
+- **UIColor** (object 100)
+  - class: `UIColor`
+  - raw values:
+    - `UIColorComponentCount` (type 0): `4`
+    - `UIRed` (type 6): `0.9200000166893005`
+    - `UIGreen` (type 6): `0.9200000166893005`
+    - `UIBlue` (type 6): `0.9200000166893005`
+    - `UIAlpha` (type 6): `1.0`
+    - `NSRGB` (type 8): `{'$data_hex': '302e393220302e393220302e3932', '$text': '0.92 0.92 0.92'}`
+    - `NSColorSpace` (type 0): `2`
+
+- **UIRuntimeOutletConnection** (object 101)
+  - class: `UIRuntimeOutletConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 7}`
+    - `UISource` (type 10): `{'$ref': 70}`
+    - `UIDestination` (type 10): `{'$ref': 162}`
+
+- **NSMutableArray** (object 102)
+  - class: `NSMutableArray`
+  - raw values:
+    - `NSInlinedValue` (type 5): `False`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 114}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 58}`
+
+- **UIButtonContent** (object 103)
+  - class: `UIButtonContent`
+  - raw values:
+    - `UITitleColor` (type 10): `{'$ref': 153}`
+    - `UIShadowColor` (type 10): `{'$ref': 132}`
+
+- **UIColor** (object 104)
+  - class: `UIColor`
+  - raw values:
+    - `UIColorComponentCount` (type 0): `4`
+    - `UIRed` (type 6): `0.3333333432674408`
+    - `UIGreen` (type 6): `0.3333333432674408`
+    - `UIBlue` (type 6): `0.3333333432674408`
+    - `UIAlpha` (type 6): `1.0`
+    - `NSRGB` (type 8): `{'$data_hex': '302e33333320302e33333320302e333333', '$text': '0.333 0.333 0.333'}`
+    - `NSColorSpace` (type 0): `2`
+
+- **NSMutableArray** (object 108)
+  - class: `NSMutableArray`
+  - raw values:
+    - `NSInlinedValue` (type 5): `False`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 47}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 3}`
+
+- **UIProxyObject** (object 109)
+  - class: `UIProxyObject`
+  - raw values:
+    - `UIProxiedObjectIdentifier` (type 10): `{'$ref': 168}`
+
+- **NSMutableArray** (object 110)
+  - class: `NSMutableArray`
+  - raw values:
+    - `NSInlinedValue` (type 5): `False`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 41}`
+
+- **NSString** (object 111)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '6c65617665537061636543656c6c', '$text': 'leaveSpaceCell'}`
+
+- **UIRuntimeOutletConnection** (object 112)
+  - class: `UIRuntimeOutletConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 147}`
+    - `UISource` (type 10): `{'$ref': 88}`
+    - `UIDestination` (type 10): `{'$ref': 70}`
+
+- **UIColor** (object 113)
+  - class: `UIColor`
+  - raw values:
+    - `UIColorComponentCount` (type 0): `4`
+    - `UIRed` (type 6): `0.5`
+    - `UIGreen` (type 6): `0.5`
+    - `UIBlue` (type 6): `0.5`
+    - `UIAlpha` (type 6): `1.0`
+    - `NSRGB` (type 8): `{'$data_hex': '302e3520302e3520302e35', '$text': '0.5 0.5 0.5'}`
+    - `NSColorSpace` (type 0): `2`
+
+- **NSMutableArray** (object 115)
+  - class: `NSMutableArray`
+  - raw values:
+    - `NSInlinedValue` (type 5): `False`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 75}`
+
+- **UIRuntimeEventConnection** (object 117)
+  - class: `UIRuntimeEventConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 129}`
+    - `UISource` (type 10): `{'$ref': 3}`
+    - `UIDestination` (type 10): `{'$ref': 70}`
+    - `UIEventMask` (type 0): `64`
+
+- **NSString** (object 120)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '49423a204c65617665205370616365', '$text': 'IB: Leave Space'}`
+
+- **NSString** (object 121)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '636f6c6c61626f7261746f72734c6162656c', '$text': 'collaboratorsLabel'}`
+
+- **NSMutableString** (object 123)
+  - class: `NSMutableString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '5469746c65', '$text': 'Title'}`
+
+- **NSString** (object 124)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '64656c6567617465', '$text': 'delegate'}`
+
+- **UIRuntimeOutletConnection** (object 125)
+  - class: `UIRuntimeOutletConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 14}`
+    - `UISource` (type 10): `{'$ref': 70}`
+    - `UIDestination` (type 10): `{'$ref': 69}`
+
+- **NSMutableArray** (object 127)
+  - class: `NSMutableArray`
+  - raw values:
+    - `NSInlinedValue` (type 5): `False`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 119}`
+
+- **UIRuntimeOutletConnection** (object 128)
+  - class: `UIRuntimeOutletConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 82}`
+    - `UISource` (type 10): `{'$ref': 70}`
+    - `UIDestination` (type 10): `{'$ref': 35}`
+
+- **NSString** (object 129)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '6c656176655370616365416374696f6e3a', '$text': 'leaveSpaceAction:'}`
+
+- **UIRuntimeOutletConnection** (object 130)
+  - class: `UIRuntimeOutletConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 138}`
+    - `UISource` (type 10): `{'$ref': 70}`
+    - `UIDestination` (type 10): `{'$ref': 3}`
+
+- **NSString** (object 131)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '746f70426c7572624261636b67726f756e64', '$text': 'topBlurbBackground'}`
+
+- **UIColor** (object 132)
+  - class: `UIColor`
+  - raw values:
+    - `UIColorComponentCount` (type 0): `4`
+    - `UIRed` (type 6): `0.0`
+    - `UIGreen` (type 6): `0.0`
+    - `UIBlue` (type 6): `0.0`
+    - `UIAlpha` (type 6): `0.5`
+    - `NSRGB` (type 8): `{'$data_hex': '302030203020302e35', '$text': '0 0 0 0.5'}`
+    - `NSColorSpace` (type 0): `2`
+
+- **UIRuntimeOutletConnection** (object 133)
+  - class: `UIRuntimeOutletConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 64}`
+    - `UISource` (type 10): `{'$ref': 70}`
+    - `UIDestination` (type 10): `{'$ref': 114}`
+
+- **NSMutableArray** (object 135)
+  - class: `NSMutableArray`
+  - raw values:
+    - `NSInlinedValue` (type 5): `False`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 45}`
+
+- **NSMutableDictionary** (object 137)
+  - class: `NSMutableDictionary`
+  - raw values:
+    - `NSInlinedValue` (type 5): `False`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 95}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 96}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 167}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 163}`
+
+- **NSString** (object 138)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '6c656176655370616365427574746f6e', '$text': 'leaveSpaceButton'}`
+
+- **NSMutableDictionary** (object 139)
+  - class: `NSMutableDictionary`
+  - raw values:
+    - `NSInlinedValue` (type 5): `False`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 95}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 90}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 167}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 103}`
+
+- **NSMutableArray** (object 140)
+  - class: `NSMutableArray`
+  - raw values:
+    - `NSInlinedValue` (type 5): `False`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 33}`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 155}`
+
+- **NSString** (object 141)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '70656e64696e67496e7669746573486561646572', '$text': 'pendingInvitesHeader'}`
+
+- **UIRuntimeOutletConnection** (object 142)
+  - class: `UIRuntimeOutletConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 26}`
+    - `UISource` (type 10): `{'$ref': 70}`
+    - `UIDestination` (type 10): `{'$ref': 105}`
+
+- **UIRuntimeOutletConnection** (object 143)
+  - class: `UIRuntimeOutletConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 25}`
+    - `UISource` (type 10): `{'$ref': 70}`
+    - `UIDestination` (type 10): `{'$ref': 122}`
+
+- **NSMutableString** (object 144)
+  - class: `NSMutableString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '4c6162656c', '$text': 'Label'}`
+
+- **NSString** (object 145)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '636f6c6c61626f7261746f7273486561646572', '$text': 'collaboratorsHeader'}`
+
+- **UIFont** (object 146)
+  - class: `UIFont`
+  - raw values:
+    - `UIFontName` (type 10): `{'$ref': 66}`
+    - `UIFontPointSize` (type 7): `15.0`
+    - `UIFontTraits` (type 0): `0`
+    - `UISystemFont` (type 5): `False`
+    - `NSName` (type 10): `{'$ref': 66}`
+    - `NSSize` (type 7): `15.0`
+
+- **NSString** (object 147)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '64617461536f75726365', '$text': 'dataSource'}`
+
+- **UIRuntimeOutletConnection** (object 148)
+  - class: `UIRuntimeOutletConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 68}`
+    - `UISource` (type 10): `{'$ref': 70}`
+    - `UIDestination` (type 10): `{'$ref': 31}`
+
+- **NSMutableArray** (object 149)
+  - class: `NSMutableArray`
+  - raw values:
+    - `NSInlinedValue` (type 5): `False`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 73}`
+
+- **UIRuntimeOutletConnection** (object 150)
+  - class: `UIRuntimeOutletConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 145}`
+    - `UISource` (type 10): `{'$ref': 70}`
+    - `UIDestination` (type 10): `{'$ref': 23}`
+
+- **NSString** (object 151)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '636f6e74616374416374696f6e3a', '$text': 'contactAction:'}`
+
+- **UIColor** (object 153)
+  - class: `UIColor`
+  - raw values:
+    - `UIColorComponentCount` (type 0): `4`
+    - `UIRed` (type 6): `1.0`
+    - `UIGreen` (type 6): `1.0`
+    - `UIBlue` (type 6): `1.0`
+    - `UIAlpha` (type 6): `1.0`
+    - `NSRGB` (type 8): `{'$data_hex': '3120312031', '$text': '1 1 1'}`
+    - `NSColorSpace` (type 0): `2`
+
+- **NSString** (object 154)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '7461626c6556696577', '$text': 'tableView'}`
+
+- **NSMutableString** (object 156)
+  - class: `NSMutableString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '4c6162656c', '$text': 'Label'}`
+
+- **NSMutableArray** (object 157)
+  - class: `NSMutableArray`
+  - raw values:
+    - `NSInlinedValue` (type 5): `False`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 161}`
+
+- **NSString** (object 158)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '', '$text': ''}`
+
+- **NSString** (object 159)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '446f6e65', '$text': 'Done'}`
+
+- **NSString** (object 160)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '636f6c6c61626f7261746f7273416374696f6e3a', '$text': 'collaboratorsAction:'}`
+
+- **UIButtonContent** (object 163)
+  - class: `UIButtonContent`
+  - raw values:
+    - `UITitleColor` (type 10): `{'$ref': 153}`
+    - `UIShadowColor` (type 10): `{'$ref': 132}`
+
+- **UIRuntimeOutletConnection** (object 164)
+  - class: `UIRuntimeOutletConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 124}`
+    - `UISource` (type 10): `{'$ref': 88}`
+    - `UIDestination` (type 10): `{'$ref': 70}`
+
+- **NSMutableArray** (object 165)
+  - class: `NSMutableArray`
+  - raw values:
+    - `NSInlinedValue` (type 5): `False`
+    - `UINibEncoderEmptyKey` (type 10): `{'$ref': 107}`
+
+- **UIRuntimeOutletConnection** (object 166)
+  - class: `UIRuntimeOutletConnection`
+  - raw values:
+    - `UILabel` (type 10): `{'$ref': 111}`
+    - `UISource` (type 10): `{'$ref': 70}`
+    - `UIDestination` (type 10): `{'$ref': 39}`
+
+- **NSNumber** (object 167)
+  - class: `NSNumber`
+  - raw values:
+    - `NS.intval` (type 0): `1`
+
+- **NSString** (object 168)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '49424669727374526573706f6e646572', '$text': 'IBFirstResponder'}`
+
+- **NSString** (object 169)
+  - class: `NSString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '696e766974654c6162656c', '$text': 'inviteLabel'}`
+
+- **NSMutableString** (object 170)
+  - class: `NSMutableString`
+  - raw values:
+    - `NS.bytes` (type 8): `{'$data_hex': '4c6162656c', '$text': 'Label'}`
+
+- **UIButtonContent** (object 171)
+  - class: `UIButtonContent`
+  - raw values:
+    - `UIImage` (type 10): `{'$ref': 2}`
+    - `UITitleColor` (type 10): `{'$ref': 12}`
+    - `UIShadowColor` (type 10): `{'$ref': 113}`
+

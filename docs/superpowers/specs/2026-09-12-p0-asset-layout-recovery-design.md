@@ -59,7 +59,9 @@ several assumptions from the implementation.
 | Fact | Consequence |
 |---|---|
 | Zero of the 546 PNG files use Apple CgBI optimization | The pipeline needs no `pngdefry` or `pngcrush` revert stage |
-| The bundle holds 546 PNG files, 259 of them `@2x` pairs, 28 single-resolution | The manifest models pairing rather than assuming it |
+| The bundle holds 546 PNG files across 277 image sets: 269 paired, 8 single-resolution, 28 carrying a device suffix | The manifest models pairing rather than assuming it |
+| **Asset identity** groups by stem with the scale marker removed from anywhere in the name, and treats a `~ipad` or `~iphone` suffix as part of identity rather than part of scale | Without this rule the same bundle yields three different counts |
+| `UIBounds` is a `0x06`-prefixed float32 quad holding `(0, 0, width, height)`, so it carries size only. `UICenter` is a `0x06`-prefixed float32 pair holding the position. 120 views across the 17 NIBs carry both | The frame is computed as `origin = center - size / 2`, never read directly |
 | All NIB files carry the 10-byte magic `NIBArchive` | `plutil` cannot read them, and a parser is required |
 | `xcrun ibtool --convert` and `--dump` both fail with `Unable to rename classes, class name parsing failed` | Xcode tooling offers no path, and the parser is the only option |
 | `PieMenu` draws through `CAShapeLayer` and bezier paths | The capture wheel requires decompilation, not asset extraction |
@@ -245,3 +247,33 @@ P3 consumes all five P0 outputs. The asset catalog supplies the artwork, the
 layout reports supply geometry, and the PieMenu analysis supplies the capture
 wheel. A P3 fidelity claim that no P0 output supports is a claim the project
 cannot make.
+
+
+## Corrections
+
+This section records what this specification got wrong, so that a reader trusts
+the corrected values rather than rediscovering the errors.
+
+**The asset counts were arithmetic, not measurement.** The original table stated
+259 paired and 28 single-resolution. Those numbers came from computing
+`546 - 259 * 2`, which assumes every retina asset has a standard-resolution
+partner. Twenty-eight assets carry a device suffix and break that assumption.
+Three different counts circulated before the rule above was written down. The
+values in the table now come from the manifest the tooling produces.
+
+**The geometry encoding was assumed rather than read.** The specification
+described `UIBounds` as a string of the form `{{0, 0}, {320, 44}}`. The artifact
+never uses that form. The first implementation therefore matched nothing and
+recovered zero geometry from all 1115 view nodes, while every test passed
+because the tests supplied synthetic strings. An adversarial audit found it by
+checking the tool against the artifact instead of against its own tests.
+
+**Repeated property keys were dropped.** The original `resolve()` wrote each
+value into a dictionary keyed by property name. Keys repeat inside a single
+object's value window, so 620 of 4229 values vanished, and every array holding
+more than one element collapsed to its last element. The parser now emits an
+ordered list and asserts that the emitted count equals the count the header
+declares.
+
+**The layout reports now carry 120 frames, 67 of them at a non-zero origin.**
+Before the correction, every view printed at `(0, 0)`.

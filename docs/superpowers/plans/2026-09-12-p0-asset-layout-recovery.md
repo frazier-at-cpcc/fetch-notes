@@ -653,6 +653,9 @@ def resolve(archive):
             else:
                 decoded = value.decoded
             properties[value.key] = {"type": value.type, "value": decoded}
+            # CORRECTION: this line drops repeated keys, losing 620 of 4229
+            # values across the 17 NIBs. Emit an ordered list instead, and
+            # assert the emitted count equals header.value_count.
         out.append({"index": index, "class": obj.class_name, "properties": properties})
     return out
 
@@ -717,6 +720,16 @@ git commit -m "feat(p0): resolve NIB object graph to deterministic JSON"
 ---
 
 ### Task 5: Layout reporter
+
+> **CORRECTION, applied 2026-09-12.** The `parse_rect` code and its three tests
+> below encode an encoding this artifact does not use. `UIBounds` is a
+> `0x06`-prefixed float32 quad carrying size only and `UICenter` is a
+> `0x06`-prefixed float32 pair carrying position, so the frame is computed as
+> `origin = center - size / 2`. Implement that instead. The string-matching
+> version recovers zero geometry while passing every test below, because the
+> tests supply synthetic strings. See `tools/nib_layout.py` for the correct
+> implementation and the spec's Corrections section for how this was found.
+
 
 **Files:**
 - Create: `tools/nib_layout.py`

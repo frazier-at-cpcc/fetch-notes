@@ -352,6 +352,10 @@ def build_tree(objects):
             "hidden": first(obj, "UIHidden"),
             "opaque": first(obj, "UIOpaque"),
             "tag": first(obj, "UITag"),
+            "proxied_object": (
+                _string_of(objects_by_index, _ref(first(obj, "UIProxiedObjectIdentifier")))
+                if _ref(first(obj, "UIProxiedObjectIdentifier")) is not None else None
+            ),
             "outlets": outlets.get(index, []),
             "actions": actions.get(index, []),
             "raw": entries(obj),

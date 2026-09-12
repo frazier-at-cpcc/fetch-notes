@@ -1,0 +1,8014 @@
+{
+  "classes": [
+    "UITextSelectionView",
+    "NSObject",
+    "NSLocale",
+    "UIRoundedRectButton",
+    "UIScrollView",
+    "UIProxyObject",
+    "UIBarButtonItem",
+    "NSArray",
+    "NSMutableArray",
+    "UIView",
+    "UIDatePicker",
+    "UIFont",
+    "UIRuntimeOutletConnection",
+    "NSString",
+    "UIRuntimeEventConnection",
+    "UIButton",
+    "UIImageNibPlaceholder",
+    "UIClassSwapper",
+    "UIColor",
+    "UIToolbar",
+    "NSNumber",
+    "UIButtonContent",
+    "NSDate",
+    "NSMutableDictionary"
+  ],
+  "counts": {
+    "classes": 24,
+    "keys": 78,
+    "objects": 123,
+    "values": 464
+  },
+  "format_version": [
+    1,
+    9
+  ],
+  "objects": [
+    {
+      "class": "NSObject",
+      "index": 0,
+      "properties": [
+        {
+          "key": "UINibTopLevelObjectsKey",
+          "type": 10,
+          "value": {
+            "$ref": 90
+          }
+        },
+        {
+          "key": "UINibObjectsKey",
+          "type": 10,
+          "value": {
+            "$ref": 15
+          }
+        },
+        {
+          "key": "UINibConnectionsKey",
+          "type": 10,
+          "value": {
+            "$ref": 76
+          }
+        },
+        {
+          "key": "UINibVisibleWindowsKey",
+          "type": 10,
+          "value": {
+            "$ref": 109
+          }
+        },
+        {
+          "key": "UINibAccessibilityConfigurationsKey",
+          "type": 10,
+          "value": {
+            "$ref": 109
+          }
+        },
+        {
+          "key": "UINibKeyValuePairsKey",
+          "type": 10,
+          "value": {
+            "$ref": 109
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UINibAccessibilityConfigurationsKey": [
+          {
+            "key": "UINibAccessibilityConfigurationsKey",
+            "type": 10,
+            "value": {
+              "$ref": 109
+            }
+          }
+        ],
+        "UINibConnectionsKey": [
+          {
+            "key": "UINibConnectionsKey",
+            "type": 10,
+            "value": {
+              "$ref": 76
+            }
+          }
+        ],
+        "UINibKeyValuePairsKey": [
+          {
+            "key": "UINibKeyValuePairsKey",
+            "type": 10,
+            "value": {
+              "$ref": 109
+            }
+          }
+        ],
+        "UINibObjectsKey": [
+          {
+            "key": "UINibObjectsKey",
+            "type": 10,
+            "value": {
+              "$ref": 15
+            }
+          }
+        ],
+        "UINibTopLevelObjectsKey": [
+          {
+            "key": "UINibTopLevelObjectsKey",
+            "type": 10,
+            "value": {
+              "$ref": 90
+            }
+          }
+        ],
+        "UINibVisibleWindowsKey": [
+          {
+            "key": "UINibVisibleWindowsKey",
+            "type": 10,
+            "value": {
+              "$ref": 109
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 1,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "64656c657465427574746f6e",
+            "$text": "deleteButton"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "64656c657465427574746f6e",
+              "$text": "deleteButton"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 2,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "73617665416e644469736d697373416374696f6e3a",
+            "$text": "saveAndDismissAction:"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "73617665416e644469736d697373416374696f6e3a",
+              "$text": "saveAndDismissAction:"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIDatePicker",
+      "index": 3,
+      "properties": [
+        {
+          "key": "UIBounds",
+          "type": 8,
+          "value": {
+            "$data_hex": "0600000000000000000000a04300005843",
+            "$floats": [
+              0.0,
+              0.0,
+              320.0,
+              216.0
+            ]
+          }
+        },
+        {
+          "key": "UICenter",
+          "type": 8,
+          "value": {
+            "$data_hex": "06000020430000b043",
+            "$floats": [
+              160.0,
+              352.0
+            ]
+          }
+        },
+        {
+          "key": "UIOpaque",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIAutoresizeSubviews",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIAutoresizingMask",
+          "type": 0,
+          "value": 10
+        },
+        {
+          "key": "UIViewContentHuggingPriority",
+          "type": 10,
+          "value": {
+            "$ref": 35
+          }
+        },
+        {
+          "key": "UILocale",
+          "type": 10,
+          "value": {
+            "$ref": 63
+          }
+        },
+        {
+          "key": "UIDate",
+          "type": 10,
+          "value": {
+            "$ref": 57
+          }
+        },
+        {
+          "key": "UIMinuteInterval",
+          "type": 0,
+          "value": 5
+        }
+      ],
+      "properties_by_key": {
+        "UIAutoresizeSubviews": [
+          {
+            "key": "UIAutoresizeSubviews",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIAutoresizingMask": [
+          {
+            "key": "UIAutoresizingMask",
+            "type": 0,
+            "value": 10
+          }
+        ],
+        "UIBounds": [
+          {
+            "key": "UIBounds",
+            "type": 8,
+            "value": {
+              "$data_hex": "0600000000000000000000a04300005843",
+              "$floats": [
+                0.0,
+                0.0,
+                320.0,
+                216.0
+              ]
+            }
+          }
+        ],
+        "UICenter": [
+          {
+            "key": "UICenter",
+            "type": 8,
+            "value": {
+              "$data_hex": "06000020430000b043",
+              "$floats": [
+                160.0,
+                352.0
+              ]
+            }
+          }
+        ],
+        "UIDate": [
+          {
+            "key": "UIDate",
+            "type": 10,
+            "value": {
+              "$ref": 57
+            }
+          }
+        ],
+        "UILocale": [
+          {
+            "key": "UILocale",
+            "type": 10,
+            "value": {
+              "$ref": 63
+            }
+          }
+        ],
+        "UIMinuteInterval": [
+          {
+            "key": "UIMinuteInterval",
+            "type": 0,
+            "value": 5
+          }
+        ],
+        "UIOpaque": [
+          {
+            "key": "UIOpaque",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIViewContentHuggingPriority": [
+          {
+            "key": "UIViewContentHuggingPriority",
+            "type": 10,
+            "value": {
+              "$ref": 35
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIRuntimeOutletConnection",
+      "index": 4,
+      "properties": [
+        {
+          "key": "UILabel",
+          "type": 10,
+          "value": {
+            "$ref": 54
+          }
+        },
+        {
+          "key": "UISource",
+          "type": 10,
+          "value": {
+            "$ref": 49
+          }
+        },
+        {
+          "key": "UIDestination",
+          "type": 10,
+          "value": {
+            "$ref": 121
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIDestination": [
+          {
+            "key": "UIDestination",
+            "type": 10,
+            "value": {
+              "$ref": 121
+            }
+          }
+        ],
+        "UILabel": [
+          {
+            "key": "UILabel",
+            "type": 10,
+            "value": {
+              "$ref": 54
+            }
+          }
+        ],
+        "UISource": [
+          {
+            "key": "UISource",
+            "type": 10,
+            "value": {
+              "$ref": 49
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIButtonContent",
+      "index": 5,
+      "properties": [
+        {
+          "key": "UITitleColor",
+          "type": 10,
+          "value": {
+            "$ref": 117
+          }
+        },
+        {
+          "key": "UIShadowColor",
+          "type": 10,
+          "value": {
+            "$ref": 111
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIShadowColor": [
+          {
+            "key": "UIShadowColor",
+            "type": 10,
+            "value": {
+              "$ref": 111
+            }
+          }
+        ],
+        "UITitleColor": [
+          {
+            "key": "UITitleColor",
+            "type": 10,
+            "value": {
+              "$ref": 117
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIButtonContent",
+      "index": 6,
+      "properties": [
+        {
+          "key": "UITitle",
+          "type": 10,
+          "value": {
+            "$ref": 94
+          }
+        },
+        {
+          "key": "UIImage",
+          "type": 10,
+          "value": {
+            "$ref": 115
+          }
+        },
+        {
+          "key": "UITitleColor",
+          "type": 10,
+          "value": {
+            "$ref": 111
+          }
+        },
+        {
+          "key": "UIShadowColor",
+          "type": 10,
+          "value": {
+            "$ref": 26
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIImage": [
+          {
+            "key": "UIImage",
+            "type": 10,
+            "value": {
+              "$ref": 115
+            }
+          }
+        ],
+        "UIShadowColor": [
+          {
+            "key": "UIShadowColor",
+            "type": 10,
+            "value": {
+              "$ref": 26
+            }
+          }
+        ],
+        "UITitle": [
+          {
+            "key": "UITitle",
+            "type": 10,
+            "value": {
+              "$ref": 94
+            }
+          }
+        ],
+        "UITitleColor": [
+          {
+            "key": "UITitleColor",
+            "type": 10,
+            "value": {
+              "$ref": 111
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSMutableArray",
+      "index": 7,
+      "properties": [
+        {
+          "key": "NSInlinedValue",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 50
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 28
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 91
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NSInlinedValue": [
+          {
+            "key": "NSInlinedValue",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UINibEncoderEmptyKey": [
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 50
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 28
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 91
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSMutableDictionary",
+      "index": 8,
+      "properties": [
+        {
+          "key": "NSInlinedValue",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 74
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 6
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 36
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 5
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NSInlinedValue": [
+          {
+            "key": "NSInlinedValue",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UINibEncoderEmptyKey": [
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 74
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 6
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 36
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 9,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "5549506c616365486f6c6465725465787456696577",
+            "$text": "UIPlaceHolderTextView"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "5549506c616365486f6c6465725465787456696577",
+              "$text": "UIPlaceHolderTextView"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIScrollView",
+      "index": 10,
+      "properties": [
+        {
+          "key": "UIBounds",
+          "type": 8,
+          "value": {
+            "$data_hex": "0600000000000000000000a04300009943",
+            "$floats": [
+              0.0,
+              0.0,
+              320.0,
+              306.0
+            ]
+          }
+        },
+        {
+          "key": "UICenter",
+          "type": 8,
+          "value": {
+            "$data_hex": "060000204300001943",
+            "$floats": [
+              160.0,
+              153.0
+            ]
+          }
+        },
+        {
+          "key": "UISubviews",
+          "type": 10,
+          "value": {
+            "$ref": 7
+          }
+        },
+        {
+          "key": "UIBackgroundColor",
+          "type": 10,
+          "value": {
+            "$ref": 38
+          }
+        },
+        {
+          "key": "UIMultipleTouchEnabled",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIAutoresizeSubviews",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIAutoresizingMask",
+          "type": 0,
+          "value": 18
+        },
+        {
+          "key": "UIClipsToBounds",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIBouncesZoom",
+          "type": 5,
+          "value": false
+        }
+      ],
+      "properties_by_key": {
+        "UIAutoresizeSubviews": [
+          {
+            "key": "UIAutoresizeSubviews",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIAutoresizingMask": [
+          {
+            "key": "UIAutoresizingMask",
+            "type": 0,
+            "value": 18
+          }
+        ],
+        "UIBackgroundColor": [
+          {
+            "key": "UIBackgroundColor",
+            "type": 10,
+            "value": {
+              "$ref": 38
+            }
+          }
+        ],
+        "UIBouncesZoom": [
+          {
+            "key": "UIBouncesZoom",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIBounds": [
+          {
+            "key": "UIBounds",
+            "type": 8,
+            "value": {
+              "$data_hex": "0600000000000000000000a04300009943",
+              "$floats": [
+                0.0,
+                0.0,
+                320.0,
+                306.0
+              ]
+            }
+          }
+        ],
+        "UICenter": [
+          {
+            "key": "UICenter",
+            "type": 8,
+            "value": {
+              "$data_hex": "060000204300001943",
+              "$floats": [
+                160.0,
+                153.0
+              ]
+            }
+          }
+        ],
+        "UIClipsToBounds": [
+          {
+            "key": "UIClipsToBounds",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIMultipleTouchEnabled": [
+          {
+            "key": "UIMultipleTouchEnabled",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UISubviews": [
+          {
+            "key": "UISubviews",
+            "type": 10,
+            "value": {
+              "$ref": 7
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 11,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "7363726f6c6c56696577",
+            "$text": "scrollView"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "7363726f6c6c56696577",
+              "$text": "scrollView"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSMutableArray",
+      "index": 12,
+      "properties": [
+        {
+          "key": "NSInlinedValue",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 51
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 104
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 121
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 75
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 24
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 3
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NSInlinedValue": [
+          {
+            "key": "NSInlinedValue",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UINibEncoderEmptyKey": [
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 51
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 104
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 121
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 75
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 24
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 3
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIBarButtonItem",
+      "index": 13,
+      "properties": [
+        {
+          "key": "UIEnabled",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIIsSystemItem",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UISystemItem",
+          "type": 0,
+          "value": 1
+        },
+        {
+          "key": "UIStyle",
+          "type": 0,
+          "value": 1
+        }
+      ],
+      "properties_by_key": {
+        "UIEnabled": [
+          {
+            "key": "UIEnabled",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIIsSystemItem": [
+          {
+            "key": "UIIsSystemItem",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIStyle": [
+          {
+            "key": "UIStyle",
+            "type": 0,
+            "value": 1
+          }
+        ],
+        "UISystemItem": [
+          {
+            "key": "UISystemItem",
+            "type": 0,
+            "value": 1
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 14,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "646174655069636b6572",
+            "$text": "datePicker"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "646174655069636b6572",
+              "$text": "datePicker"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSArray",
+      "index": 15,
+      "properties": [
+        {
+          "key": "NSInlinedValue",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 49
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 48
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 21
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 70
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 51
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 104
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 121
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 75
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 24
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 3
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 122
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 96
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 86
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 13
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 34
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 42
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 10
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 59
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 29
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 46
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 50
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 28
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 91
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NSInlinedValue": [
+          {
+            "key": "NSInlinedValue",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UINibEncoderEmptyKey": [
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 49
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 48
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 21
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 70
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 51
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 104
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 121
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 75
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 24
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 3
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 122
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 96
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 86
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 13
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 34
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 42
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 10
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 59
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 29
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 46
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 50
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 28
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 91
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIRuntimeEventConnection",
+      "index": 16,
+      "properties": [
+        {
+          "key": "UILabel",
+          "type": 10,
+          "value": {
+            "$ref": 119
+          }
+        },
+        {
+          "key": "UISource",
+          "type": 10,
+          "value": {
+            "$ref": 59
+          }
+        },
+        {
+          "key": "UIDestination",
+          "type": 10,
+          "value": {
+            "$ref": 49
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIDestination": [
+          {
+            "key": "UIDestination",
+            "type": 10,
+            "value": {
+              "$ref": 49
+            }
+          }
+        ],
+        "UILabel": [
+          {
+            "key": "UILabel",
+            "type": 10,
+            "value": {
+              "$ref": 119
+            }
+          }
+        ],
+        "UISource": [
+          {
+            "key": "UISource",
+            "type": 10,
+            "value": {
+              "$ref": 59
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 17,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "646174655069636b65724368616e6765643a",
+            "$text": "datePickerChanged:"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "646174655069636b65724368616e6765643a",
+              "$text": "datePickerChanged:"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSMutableDictionary",
+      "index": 18,
+      "properties": [
+        {
+          "key": "NSInlinedValue",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 74
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 52
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 36
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 22
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NSInlinedValue": [
+          {
+            "key": "NSInlinedValue",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UINibEncoderEmptyKey": [
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 74
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 52
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 36
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 22
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIRuntimeOutletConnection",
+      "index": 19,
+      "properties": [
+        {
+          "key": "UILabel",
+          "type": 10,
+          "value": {
+            "$ref": 120
+          }
+        },
+        {
+          "key": "UISource",
+          "type": 10,
+          "value": {
+            "$ref": 49
+          }
+        },
+        {
+          "key": "UIDestination",
+          "type": 10,
+          "value": {
+            "$ref": 70
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIDestination": [
+          {
+            "key": "UIDestination",
+            "type": 10,
+            "value": {
+              "$ref": 70
+            }
+          }
+        ],
+        "UILabel": [
+          {
+            "key": "UILabel",
+            "type": 10,
+            "value": {
+              "$ref": 120
+            }
+          }
+        ],
+        "UISource": [
+          {
+            "key": "UISource",
+            "type": 10,
+            "value": {
+              "$ref": 49
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIRuntimeEventConnection",
+      "index": 20,
+      "properties": [
+        {
+          "key": "UILabel",
+          "type": 10,
+          "value": {
+            "$ref": 84
+          }
+        },
+        {
+          "key": "UISource",
+          "type": 10,
+          "value": {
+            "$ref": 50
+          }
+        },
+        {
+          "key": "UIDestination",
+          "type": 10,
+          "value": {
+            "$ref": 49
+          }
+        },
+        {
+          "key": "UIEventMask",
+          "type": 0,
+          "value": 64
+        }
+      ],
+      "properties_by_key": {
+        "UIDestination": [
+          {
+            "key": "UIDestination",
+            "type": 10,
+            "value": {
+              "$ref": 49
+            }
+          }
+        ],
+        "UIEventMask": [
+          {
+            "key": "UIEventMask",
+            "type": 0,
+            "value": 64
+          }
+        ],
+        "UILabel": [
+          {
+            "key": "UILabel",
+            "type": 10,
+            "value": {
+              "$ref": 84
+            }
+          }
+        ],
+        "UISource": [
+          {
+            "key": "UISource",
+            "type": 10,
+            "value": {
+              "$ref": 50
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIView",
+      "index": 21,
+      "properties": [
+        {
+          "key": "UIBounds",
+          "type": 8,
+          "value": {
+            "$data_hex": "0600000000000000000000a0430000e643",
+            "$floats": [
+              0.0,
+              0.0,
+              320.0,
+              460.0
+            ]
+          }
+        },
+        {
+          "key": "UICenter",
+          "type": 8,
+          "value": {
+            "$data_hex": "060000204300006643",
+            "$floats": [
+              160.0,
+              230.0
+            ]
+          }
+        },
+        {
+          "key": "UISubviews",
+          "type": 10,
+          "value": {
+            "$ref": 12
+          }
+        },
+        {
+          "key": "UIBackgroundColor",
+          "type": 10,
+          "value": {
+            "$ref": 41
+          }
+        },
+        {
+          "key": "UIOpaque",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIAutoresizeSubviews",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIAutoresizingMask",
+          "type": 0,
+          "value": 18
+        }
+      ],
+      "properties_by_key": {
+        "UIAutoresizeSubviews": [
+          {
+            "key": "UIAutoresizeSubviews",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIAutoresizingMask": [
+          {
+            "key": "UIAutoresizingMask",
+            "type": 0,
+            "value": 18
+          }
+        ],
+        "UIBackgroundColor": [
+          {
+            "key": "UIBackgroundColor",
+            "type": 10,
+            "value": {
+              "$ref": 41
+            }
+          }
+        ],
+        "UIBounds": [
+          {
+            "key": "UIBounds",
+            "type": 8,
+            "value": {
+              "$data_hex": "0600000000000000000000a0430000e643",
+              "$floats": [
+                0.0,
+                0.0,
+                320.0,
+                460.0
+              ]
+            }
+          }
+        ],
+        "UICenter": [
+          {
+            "key": "UICenter",
+            "type": 8,
+            "value": {
+              "$data_hex": "060000204300006643",
+              "$floats": [
+                160.0,
+                230.0
+              ]
+            }
+          }
+        ],
+        "UIOpaque": [
+          {
+            "key": "UIOpaque",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UISubviews": [
+          {
+            "key": "UISubviews",
+            "type": 10,
+            "value": {
+              "$ref": 12
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIButtonContent",
+      "index": 22,
+      "properties": [
+        {
+          "key": "UITitleColor",
+          "type": 10,
+          "value": {
+            "$ref": 117
+          }
+        },
+        {
+          "key": "UIShadowColor",
+          "type": 10,
+          "value": {
+            "$ref": 111
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIShadowColor": [
+          {
+            "key": "UIShadowColor",
+            "type": 10,
+            "value": {
+              "$ref": 111
+            }
+          }
+        ],
+        "UITitleColor": [
+          {
+            "key": "UITitleColor",
+            "type": 10,
+            "value": {
+              "$ref": 117
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIRuntimeOutletConnection",
+      "index": 23,
+      "properties": [
+        {
+          "key": "UILabel",
+          "type": 10,
+          "value": {
+            "$ref": 79
+          }
+        },
+        {
+          "key": "UISource",
+          "type": 10,
+          "value": {
+            "$ref": 91
+          }
+        },
+        {
+          "key": "UIDestination",
+          "type": 10,
+          "value": {
+            "$ref": 49
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIDestination": [
+          {
+            "key": "UIDestination",
+            "type": 10,
+            "value": {
+              "$ref": 49
+            }
+          }
+        ],
+        "UILabel": [
+          {
+            "key": "UILabel",
+            "type": 10,
+            "value": {
+              "$ref": 79
+            }
+          }
+        ],
+        "UISource": [
+          {
+            "key": "UISource",
+            "type": 10,
+            "value": {
+              "$ref": 91
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIToolbar",
+      "index": 24,
+      "properties": [
+        {
+          "key": "UIBounds",
+          "type": 8,
+          "value": {
+            "$data_hex": "0600000000000000000000a04300003042",
+            "$floats": [
+              0.0,
+              0.0,
+              320.0,
+              44.0
+            ]
+          }
+        },
+        {
+          "key": "UICenter",
+          "type": 8,
+          "value": {
+            "$data_hex": "060000204300005e43",
+            "$floats": [
+              160.0,
+              222.0
+            ]
+          }
+        },
+        {
+          "key": "UIOpaque",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIAutoresizeSubviews",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIAutoresizingMask",
+          "type": 0,
+          "value": 10
+        },
+        {
+          "key": "UIClearsContextBeforeDrawing",
+          "type": 4,
+          "value": true
+        },
+        {
+          "key": "UIViewContentHuggingPriority",
+          "type": 10,
+          "value": {
+            "$ref": 35
+          }
+        },
+        {
+          "key": "UIItems",
+          "type": 10,
+          "value": {
+            "$ref": 30
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIAutoresizeSubviews": [
+          {
+            "key": "UIAutoresizeSubviews",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIAutoresizingMask": [
+          {
+            "key": "UIAutoresizingMask",
+            "type": 0,
+            "value": 10
+          }
+        ],
+        "UIBounds": [
+          {
+            "key": "UIBounds",
+            "type": 8,
+            "value": {
+              "$data_hex": "0600000000000000000000a04300003042",
+              "$floats": [
+                0.0,
+                0.0,
+                320.0,
+                44.0
+              ]
+            }
+          }
+        ],
+        "UICenter": [
+          {
+            "key": "UICenter",
+            "type": 8,
+            "value": {
+              "$data_hex": "060000204300005e43",
+              "$floats": [
+                160.0,
+                222.0
+              ]
+            }
+          }
+        ],
+        "UIClearsContextBeforeDrawing": [
+          {
+            "key": "UIClearsContextBeforeDrawing",
+            "type": 4,
+            "value": true
+          }
+        ],
+        "UIItems": [
+          {
+            "key": "UIItems",
+            "type": 10,
+            "value": {
+              "$ref": 30
+            }
+          }
+        ],
+        "UIOpaque": [
+          {
+            "key": "UIOpaque",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIViewContentHuggingPriority": [
+          {
+            "key": "UIViewContentHuggingPriority",
+            "type": 10,
+            "value": {
+              "$ref": 35
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIRuntimeOutletConnection",
+      "index": 25,
+      "properties": [
+        {
+          "key": "UILabel",
+          "type": 10,
+          "value": {
+            "$ref": 14
+          }
+        },
+        {
+          "key": "UISource",
+          "type": 10,
+          "value": {
+            "$ref": 49
+          }
+        },
+        {
+          "key": "UIDestination",
+          "type": 10,
+          "value": {
+            "$ref": 3
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIDestination": [
+          {
+            "key": "UIDestination",
+            "type": 10,
+            "value": {
+              "$ref": 3
+            }
+          }
+        ],
+        "UILabel": [
+          {
+            "key": "UILabel",
+            "type": 10,
+            "value": {
+              "$ref": 14
+            }
+          }
+        ],
+        "UISource": [
+          {
+            "key": "UISource",
+            "type": 10,
+            "value": {
+              "$ref": 49
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIColor",
+      "index": 26,
+      "properties": [
+        {
+          "key": "UIColorComponentCount",
+          "type": 0,
+          "value": 4
+        },
+        {
+          "key": "UIRed",
+          "type": 6,
+          "value": 1.0
+        },
+        {
+          "key": "UIGreen",
+          "type": 6,
+          "value": 1.0
+        },
+        {
+          "key": "UIBlue",
+          "type": 6,
+          "value": 1.0
+        },
+        {
+          "key": "UIAlpha",
+          "type": 6,
+          "value": 1.0
+        },
+        {
+          "key": "NSRGB",
+          "type": 8,
+          "value": {
+            "$data_hex": "3120312031",
+            "$text": "1 1 1"
+          }
+        },
+        {
+          "key": "NSColorSpace",
+          "type": 0,
+          "value": 2
+        }
+      ],
+      "properties_by_key": {
+        "NSColorSpace": [
+          {
+            "key": "NSColorSpace",
+            "type": 0,
+            "value": 2
+          }
+        ],
+        "NSRGB": [
+          {
+            "key": "NSRGB",
+            "type": 8,
+            "value": {
+              "$data_hex": "3120312031",
+              "$text": "1 1 1"
+            }
+          }
+        ],
+        "UIAlpha": [
+          {
+            "key": "UIAlpha",
+            "type": 6,
+            "value": 1.0
+          }
+        ],
+        "UIBlue": [
+          {
+            "key": "UIBlue",
+            "type": 6,
+            "value": 1.0
+          }
+        ],
+        "UIColorComponentCount": [
+          {
+            "key": "UIColorComponentCount",
+            "type": 0,
+            "value": 4
+          }
+        ],
+        "UIGreen": [
+          {
+            "key": "UIGreen",
+            "type": 6,
+            "value": 1.0
+          }
+        ],
+        "UIRed": [
+          {
+            "key": "UIRed",
+            "type": 6,
+            "value": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 27,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "55495465787456696577",
+            "$text": "UITextView"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "55495465787456696577",
+              "$text": "UITextView"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIButton",
+      "index": 28,
+      "properties": [
+        {
+          "key": "UIBounds",
+          "type": 8,
+          "value": {
+            "$data_hex": "06000000000000000000008c4300003c42",
+            "$floats": [
+              0.0,
+              0.0,
+              280.0,
+              47.0
+            ]
+          }
+        },
+        {
+          "key": "UICenter",
+          "type": 8,
+          "value": {
+            "$data_hex": "06000020430000c542",
+            "$floats": [
+              160.0,
+              98.5
+            ]
+          }
+        },
+        {
+          "key": "UIAutoresizeSubviews",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIAutoresizingMask",
+          "type": 0,
+          "value": 34
+        },
+        {
+          "key": "UIButtonStatefulContent",
+          "type": 10,
+          "value": {
+            "$ref": 18
+          }
+        },
+        {
+          "key": "UIReversesTitleShadowWhenHighlighted",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIAdjustsImageWhenHighlighted",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIAdjustsImageWhenDisabled",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UITitleShadowOffset",
+          "type": 8,
+          "value": {
+            "$data_hex": "06000000000000803f",
+            "$floats": [
+              0.0,
+              1.0
+            ]
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIAdjustsImageWhenDisabled": [
+          {
+            "key": "UIAdjustsImageWhenDisabled",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIAdjustsImageWhenHighlighted": [
+          {
+            "key": "UIAdjustsImageWhenHighlighted",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIAutoresizeSubviews": [
+          {
+            "key": "UIAutoresizeSubviews",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIAutoresizingMask": [
+          {
+            "key": "UIAutoresizingMask",
+            "type": 0,
+            "value": 34
+          }
+        ],
+        "UIBounds": [
+          {
+            "key": "UIBounds",
+            "type": 8,
+            "value": {
+              "$data_hex": "06000000000000000000008c4300003c42",
+              "$floats": [
+                0.0,
+                0.0,
+                280.0,
+                47.0
+              ]
+            }
+          }
+        ],
+        "UIButtonStatefulContent": [
+          {
+            "key": "UIButtonStatefulContent",
+            "type": 10,
+            "value": {
+              "$ref": 18
+            }
+          }
+        ],
+        "UICenter": [
+          {
+            "key": "UICenter",
+            "type": 8,
+            "value": {
+              "$data_hex": "06000020430000c542",
+              "$floats": [
+                160.0,
+                98.5
+              ]
+            }
+          }
+        ],
+        "UIReversesTitleShadowWhenHighlighted": [
+          {
+            "key": "UIReversesTitleShadowWhenHighlighted",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UITitleShadowOffset": [
+          {
+            "key": "UITitleShadowOffset",
+            "type": 8,
+            "value": {
+              "$data_hex": "06000000000000803f",
+              "$floats": [
+                0.0,
+                1.0
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIBarButtonItem",
+      "index": 29,
+      "properties": [
+        {
+          "key": "UIEnabled",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIIsSystemItem",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UISystemItem",
+          "type": 0,
+          "value": 5
+        }
+      ],
+      "properties_by_key": {
+        "UIEnabled": [
+          {
+            "key": "UIEnabled",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIIsSystemItem": [
+          {
+            "key": "UIIsSystemItem",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UISystemItem": [
+          {
+            "key": "UISystemItem",
+            "type": 0,
+            "value": 5
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSArray",
+      "index": 30,
+      "properties": [
+        {
+          "key": "NSInlinedValue",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 59
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 29
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 46
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NSInlinedValue": [
+          {
+            "key": "NSInlinedValue",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UINibEncoderEmptyKey": [
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 59
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 29
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 46
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 31,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "5549546f6f6c626172",
+            "$text": "UIToolbar"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "5549546f6f6c626172",
+              "$text": "UIToolbar"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 32,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "74657874436f6e7461696e657256696577",
+            "$text": "textContainerView"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "74657874436f6e7461696e657256696577",
+              "$text": "textContainerView"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIRuntimeEventConnection",
+      "index": 33,
+      "properties": [
+        {
+          "key": "UILabel",
+          "type": 10,
+          "value": {
+            "$ref": 17
+          }
+        },
+        {
+          "key": "UISource",
+          "type": 10,
+          "value": {
+            "$ref": 3
+          }
+        },
+        {
+          "key": "UIDestination",
+          "type": 10,
+          "value": {
+            "$ref": 49
+          }
+        },
+        {
+          "key": "UIEventMask",
+          "type": 1,
+          "value": 4096
+        }
+      ],
+      "properties_by_key": {
+        "UIDestination": [
+          {
+            "key": "UIDestination",
+            "type": 10,
+            "value": {
+              "$ref": 49
+            }
+          }
+        ],
+        "UIEventMask": [
+          {
+            "key": "UIEventMask",
+            "type": 1,
+            "value": 4096
+          }
+        ],
+        "UILabel": [
+          {
+            "key": "UILabel",
+            "type": 10,
+            "value": {
+              "$ref": 17
+            }
+          }
+        ],
+        "UISource": [
+          {
+            "key": "UISource",
+            "type": 10,
+            "value": {
+              "$ref": 3
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIBarButtonItem",
+      "index": 34,
+      "properties": [
+        {
+          "key": "UIEnabled",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIIsSystemItem",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UISystemItem",
+          "type": 0,
+          "value": 5
+        }
+      ],
+      "properties_by_key": {
+        "UIEnabled": [
+          {
+            "key": "UIEnabled",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIIsSystemItem": [
+          {
+            "key": "UIIsSystemItem",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UISystemItem": [
+          {
+            "key": "UISystemItem",
+            "type": 0,
+            "value": 5
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 35,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "7b3235302c203235307d",
+            "$text": "{250, 250}"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "7b3235302c203235307d",
+              "$text": "{250, 250}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSNumber",
+      "index": 36,
+      "properties": [
+        {
+          "key": "NS.intval",
+          "type": 0,
+          "value": 1
+        }
+      ],
+      "properties_by_key": {
+        "NS.intval": [
+          {
+            "key": "NS.intval",
+            "type": 0,
+            "value": 1
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIRuntimeOutletConnection",
+      "index": 37,
+      "properties": [
+        {
+          "key": "UILabel",
+          "type": 10,
+          "value": {
+            "$ref": 68
+          }
+        },
+        {
+          "key": "UISource",
+          "type": 10,
+          "value": {
+            "$ref": 49
+          }
+        },
+        {
+          "key": "UIDestination",
+          "type": 10,
+          "value": {
+            "$ref": 51
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIDestination": [
+          {
+            "key": "UIDestination",
+            "type": 10,
+            "value": {
+              "$ref": 51
+            }
+          }
+        ],
+        "UILabel": [
+          {
+            "key": "UILabel",
+            "type": 10,
+            "value": {
+              "$ref": 68
+            }
+          }
+        ],
+        "UISource": [
+          {
+            "key": "UISource",
+            "type": 10,
+            "value": {
+              "$ref": 49
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIColor",
+      "index": 38,
+      "properties": [
+        {
+          "key": "UIColorComponentCount",
+          "type": 0,
+          "value": 4
+        },
+        {
+          "key": "UIRed",
+          "type": 6,
+          "value": 0.0
+        },
+        {
+          "key": "UIGreen",
+          "type": 6,
+          "value": 0.0
+        },
+        {
+          "key": "UIBlue",
+          "type": 6,
+          "value": 0.0
+        },
+        {
+          "key": "UIAlpha",
+          "type": 6,
+          "value": 0.0
+        },
+        {
+          "key": "NSRGB",
+          "type": 8,
+          "value": {
+            "$data_hex": "30203020302030",
+            "$text": "0 0 0 0"
+          }
+        },
+        {
+          "key": "NSColorSpace",
+          "type": 0,
+          "value": 2
+        }
+      ],
+      "properties_by_key": {
+        "NSColorSpace": [
+          {
+            "key": "NSColorSpace",
+            "type": 0,
+            "value": 2
+          }
+        ],
+        "NSRGB": [
+          {
+            "key": "NSRGB",
+            "type": 8,
+            "value": {
+              "$data_hex": "30203020302030",
+              "$text": "0 0 0 0"
+            }
+          }
+        ],
+        "UIAlpha": [
+          {
+            "key": "UIAlpha",
+            "type": 6,
+            "value": 0.0
+          }
+        ],
+        "UIBlue": [
+          {
+            "key": "UIBlue",
+            "type": 6,
+            "value": 0.0
+          }
+        ],
+        "UIColorComponentCount": [
+          {
+            "key": "UIColorComponentCount",
+            "type": 0,
+            "value": 4
+          }
+        ],
+        "UIGreen": [
+          {
+            "key": "UIGreen",
+            "type": 6,
+            "value": 0.0
+          }
+        ],
+        "UIRed": [
+          {
+            "key": "UIRed",
+            "type": 6,
+            "value": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIRuntimeOutletConnection",
+      "index": 39,
+      "properties": [
+        {
+          "key": "UILabel",
+          "type": 10,
+          "value": {
+            "$ref": 1
+          }
+        },
+        {
+          "key": "UISource",
+          "type": 10,
+          "value": {
+            "$ref": 49
+          }
+        },
+        {
+          "key": "UIDestination",
+          "type": 10,
+          "value": {
+            "$ref": 28
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIDestination": [
+          {
+            "key": "UIDestination",
+            "type": 10,
+            "value": {
+              "$ref": 28
+            }
+          }
+        ],
+        "UILabel": [
+          {
+            "key": "UILabel",
+            "type": 10,
+            "value": {
+              "$ref": 1
+            }
+          }
+        ],
+        "UISource": [
+          {
+            "key": "UISource",
+            "type": 10,
+            "value": {
+              "$ref": 49
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 40,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "656e5f5553",
+            "$text": "en_US"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "656e5f5553",
+              "$text": "en_US"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIColor",
+      "index": 41,
+      "properties": [
+        {
+          "key": "UIColorComponentCount",
+          "type": 0,
+          "value": 4
+        },
+        {
+          "key": "UIRed",
+          "type": 6,
+          "value": 0.9490196108818054
+        },
+        {
+          "key": "UIGreen",
+          "type": 6,
+          "value": 0.9490196108818054
+        },
+        {
+          "key": "UIBlue",
+          "type": 6,
+          "value": 0.9490196108818054
+        },
+        {
+          "key": "UIAlpha",
+          "type": 6,
+          "value": 1.0
+        },
+        {
+          "key": "NSRGB",
+          "type": 8,
+          "value": {
+            "$data_hex": "302e39343920302e39343920302e393439",
+            "$text": "0.949 0.949 0.949"
+          }
+        },
+        {
+          "key": "NSColorSpace",
+          "type": 0,
+          "value": 2
+        }
+      ],
+      "properties_by_key": {
+        "NSColorSpace": [
+          {
+            "key": "NSColorSpace",
+            "type": 0,
+            "value": 2
+          }
+        ],
+        "NSRGB": [
+          {
+            "key": "NSRGB",
+            "type": 8,
+            "value": {
+              "$data_hex": "302e39343920302e39343920302e393439",
+              "$text": "0.949 0.949 0.949"
+            }
+          }
+        ],
+        "UIAlpha": [
+          {
+            "key": "UIAlpha",
+            "type": 6,
+            "value": 1.0
+          }
+        ],
+        "UIBlue": [
+          {
+            "key": "UIBlue",
+            "type": 6,
+            "value": 0.9490196108818054
+          }
+        ],
+        "UIColorComponentCount": [
+          {
+            "key": "UIColorComponentCount",
+            "type": 0,
+            "value": 4
+          }
+        ],
+        "UIGreen": [
+          {
+            "key": "UIGreen",
+            "type": 6,
+            "value": 0.9490196108818054
+          }
+        ],
+        "UIRed": [
+          {
+            "key": "UIRed",
+            "type": 6,
+            "value": 0.9490196108818054
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIBarButtonItem",
+      "index": 42,
+      "properties": [
+        {
+          "key": "UIEnabled",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIIsSystemItem",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UISystemItem",
+          "type": 0,
+          "value": 3
+        },
+        {
+          "key": "UIStyle",
+          "type": 0,
+          "value": 1
+        }
+      ],
+      "properties_by_key": {
+        "UIEnabled": [
+          {
+            "key": "UIEnabled",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIIsSystemItem": [
+          {
+            "key": "UIIsSystemItem",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIStyle": [
+          {
+            "key": "UIStyle",
+            "type": 0,
+            "value": 1
+          }
+        ],
+        "UISystemItem": [
+          {
+            "key": "UISystemItem",
+            "type": 0,
+            "value": 3
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 43,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "49424669727374526573706f6e646572",
+            "$text": "IBFirstResponder"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "49424669727374526573706f6e646572",
+              "$text": "IBFirstResponder"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 44,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "6e6f74655465787456696577",
+            "$text": "noteTextView"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "6e6f74655465787456696577",
+              "$text": "noteTextView"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIRuntimeEventConnection",
+      "index": 45,
+      "properties": [
+        {
+          "key": "UILabel",
+          "type": 10,
+          "value": {
+            "$ref": 2
+          }
+        },
+        {
+          "key": "UISource",
+          "type": 10,
+          "value": {
+            "$ref": 42
+          }
+        },
+        {
+          "key": "UIDestination",
+          "type": 10,
+          "value": {
+            "$ref": 49
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIDestination": [
+          {
+            "key": "UIDestination",
+            "type": 10,
+            "value": {
+              "$ref": 49
+            }
+          }
+        ],
+        "UILabel": [
+          {
+            "key": "UILabel",
+            "type": 10,
+            "value": {
+              "$ref": 2
+            }
+          }
+        ],
+        "UISource": [
+          {
+            "key": "UISource",
+            "type": 10,
+            "value": {
+              "$ref": 42
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIBarButtonItem",
+      "index": 46,
+      "properties": [
+        {
+          "key": "UIEnabled",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIIsSystemItem",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UISystemItem",
+          "type": 0,
+          "value": 0
+        },
+        {
+          "key": "UIStyle",
+          "type": 0,
+          "value": 1
+        }
+      ],
+      "properties_by_key": {
+        "UIEnabled": [
+          {
+            "key": "UIEnabled",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIIsSystemItem": [
+          {
+            "key": "UIIsSystemItem",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIStyle": [
+          {
+            "key": "UIStyle",
+            "type": 0,
+            "value": 1
+          }
+        ],
+        "UISystemItem": [
+          {
+            "key": "UISystemItem",
+            "type": 0,
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 47,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "7365744c6f636174696f6e416374696f6e3a",
+            "$text": "setLocationAction:"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "7365744c6f636174696f6e416374696f6e3a",
+              "$text": "setLocationAction:"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIProxyObject",
+      "index": 48,
+      "properties": [
+        {
+          "key": "UIProxiedObjectIdentifier",
+          "type": 10,
+          "value": {
+            "$ref": 43
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIProxiedObjectIdentifier": [
+          {
+            "key": "UIProxiedObjectIdentifier",
+            "type": 10,
+            "value": {
+              "$ref": 43
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIProxyObject",
+      "index": 49,
+      "properties": [
+        {
+          "key": "UIProxiedObjectIdentifier",
+          "type": 10,
+          "value": {
+            "$ref": 81
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIProxiedObjectIdentifier": [
+          {
+            "key": "UIProxiedObjectIdentifier",
+            "type": 10,
+            "value": {
+              "$ref": 81
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIButton",
+      "index": 50,
+      "properties": [
+        {
+          "key": "UIBounds",
+          "type": 8,
+          "value": {
+            "$data_hex": "06000000000000000000008c4300003c42",
+            "$floats": [
+              0.0,
+              0.0,
+              280.0,
+              47.0
+            ]
+          }
+        },
+        {
+          "key": "UICenter",
+          "type": 8,
+          "value": {
+            "$data_hex": "060000204300002e42",
+            "$floats": [
+              160.0,
+              43.5
+            ]
+          }
+        },
+        {
+          "key": "UIAutoresizeSubviews",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIAutoresizingMask",
+          "type": 0,
+          "value": 34
+        },
+        {
+          "key": "UIContentHorizontalAlignment",
+          "type": 0,
+          "value": 1
+        },
+        {
+          "key": "UIButtonStatefulContent",
+          "type": 10,
+          "value": {
+            "$ref": 8
+          }
+        },
+        {
+          "key": "UIReversesTitleShadowWhenHighlighted",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIAdjustsImageWhenHighlighted",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIAdjustsImageWhenDisabled",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIContentEdgeInsets",
+          "type": 8,
+          "value": {
+            "$data_hex": "060000a0400000a0400000a0400000a040",
+            "$floats": [
+              5.0,
+              5.0,
+              5.0,
+              5.0
+            ]
+          }
+        },
+        {
+          "key": "UITitleEdgeInsets",
+          "type": 8,
+          "value": {
+            "$data_hex": "0600000000000080410000000000000000",
+            "$floats": [
+              0.0,
+              16.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "key": "UITitleShadowOffset",
+          "type": 8,
+          "value": {
+            "$data_hex": "06000000000000803f",
+            "$floats": [
+              0.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "key": "UIImageEdgeInsets",
+          "type": 8,
+          "value": {
+            "$data_hex": "06000000000000a0400000000000000000",
+            "$floats": [
+              0.0,
+              5.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIAdjustsImageWhenDisabled": [
+          {
+            "key": "UIAdjustsImageWhenDisabled",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIAdjustsImageWhenHighlighted": [
+          {
+            "key": "UIAdjustsImageWhenHighlighted",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIAutoresizeSubviews": [
+          {
+            "key": "UIAutoresizeSubviews",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIAutoresizingMask": [
+          {
+            "key": "UIAutoresizingMask",
+            "type": 0,
+            "value": 34
+          }
+        ],
+        "UIBounds": [
+          {
+            "key": "UIBounds",
+            "type": 8,
+            "value": {
+              "$data_hex": "06000000000000000000008c4300003c42",
+              "$floats": [
+                0.0,
+                0.0,
+                280.0,
+                47.0
+              ]
+            }
+          }
+        ],
+        "UIButtonStatefulContent": [
+          {
+            "key": "UIButtonStatefulContent",
+            "type": 10,
+            "value": {
+              "$ref": 8
+            }
+          }
+        ],
+        "UICenter": [
+          {
+            "key": "UICenter",
+            "type": 8,
+            "value": {
+              "$data_hex": "060000204300002e42",
+              "$floats": [
+                160.0,
+                43.5
+              ]
+            }
+          }
+        ],
+        "UIContentEdgeInsets": [
+          {
+            "key": "UIContentEdgeInsets",
+            "type": 8,
+            "value": {
+              "$data_hex": "060000a0400000a0400000a0400000a040",
+              "$floats": [
+                5.0,
+                5.0,
+                5.0,
+                5.0
+              ]
+            }
+          }
+        ],
+        "UIContentHorizontalAlignment": [
+          {
+            "key": "UIContentHorizontalAlignment",
+            "type": 0,
+            "value": 1
+          }
+        ],
+        "UIImageEdgeInsets": [
+          {
+            "key": "UIImageEdgeInsets",
+            "type": 8,
+            "value": {
+              "$data_hex": "06000000000000a0400000000000000000",
+              "$floats": [
+                0.0,
+                5.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        ],
+        "UIReversesTitleShadowWhenHighlighted": [
+          {
+            "key": "UIReversesTitleShadowWhenHighlighted",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UITitleEdgeInsets": [
+          {
+            "key": "UITitleEdgeInsets",
+            "type": 8,
+            "value": {
+              "$data_hex": "0600000000000080410000000000000000",
+              "$floats": [
+                0.0,
+                16.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        ],
+        "UITitleShadowOffset": [
+          {
+            "key": "UITitleShadowOffset",
+            "type": 8,
+            "value": {
+              "$data_hex": "06000000000000803f",
+              "$floats": [
+                0.0,
+                1.0
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIToolbar",
+      "index": 51,
+      "properties": [
+        {
+          "key": "UIBounds",
+          "type": 8,
+          "value": {
+            "$data_hex": "0600000000000000000000a04300003042",
+            "$floats": [
+              0.0,
+              0.0,
+              320.0,
+              44.0
+            ]
+          }
+        },
+        {
+          "key": "UICenter",
+          "type": 8,
+          "value": {
+            "$data_hex": "06000020430000b041",
+            "$floats": [
+              160.0,
+              22.0
+            ]
+          }
+        },
+        {
+          "key": "UIOpaque",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIAutoresizeSubviews",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIAutoresizingMask",
+          "type": 0,
+          "value": 34
+        },
+        {
+          "key": "UIClearsContextBeforeDrawing",
+          "type": 4,
+          "value": true
+        },
+        {
+          "key": "UIViewContentHuggingPriority",
+          "type": 10,
+          "value": {
+            "$ref": 35
+          }
+        },
+        {
+          "key": "UIItems",
+          "type": 10,
+          "value": {
+            "$ref": 77
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIAutoresizeSubviews": [
+          {
+            "key": "UIAutoresizeSubviews",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIAutoresizingMask": [
+          {
+            "key": "UIAutoresizingMask",
+            "type": 0,
+            "value": 34
+          }
+        ],
+        "UIBounds": [
+          {
+            "key": "UIBounds",
+            "type": 8,
+            "value": {
+              "$data_hex": "0600000000000000000000a04300003042",
+              "$floats": [
+                0.0,
+                0.0,
+                320.0,
+                44.0
+              ]
+            }
+          }
+        ],
+        "UICenter": [
+          {
+            "key": "UICenter",
+            "type": 8,
+            "value": {
+              "$data_hex": "06000020430000b041",
+              "$floats": [
+                160.0,
+                22.0
+              ]
+            }
+          }
+        ],
+        "UIClearsContextBeforeDrawing": [
+          {
+            "key": "UIClearsContextBeforeDrawing",
+            "type": 4,
+            "value": true
+          }
+        ],
+        "UIItems": [
+          {
+            "key": "UIItems",
+            "type": 10,
+            "value": {
+              "$ref": 77
+            }
+          }
+        ],
+        "UIOpaque": [
+          {
+            "key": "UIOpaque",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIViewContentHuggingPriority": [
+          {
+            "key": "UIViewContentHuggingPriority",
+            "type": 10,
+            "value": {
+              "$ref": 35
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIButtonContent",
+      "index": 52,
+      "properties": [
+        {
+          "key": "UITitle",
+          "type": 10,
+          "value": {
+            "$ref": 69
+          }
+        },
+        {
+          "key": "UITitleColor",
+          "type": 10,
+          "value": {
+            "$ref": 111
+          }
+        },
+        {
+          "key": "UIShadowColor",
+          "type": 10,
+          "value": {
+            "$ref": 26
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIShadowColor": [
+          {
+            "key": "UIShadowColor",
+            "type": 10,
+            "value": {
+              "$ref": 26
+            }
+          }
+        ],
+        "UITitle": [
+          {
+            "key": "UITitle",
+            "type": 10,
+            "value": {
+              "$ref": 69
+            }
+          }
+        ],
+        "UITitleColor": [
+          {
+            "key": "UITitleColor",
+            "type": 10,
+            "value": {
+              "$ref": 111
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIRuntimeOutletConnection",
+      "index": 53,
+      "properties": [
+        {
+          "key": "UILabel",
+          "type": 10,
+          "value": {
+            "$ref": 72
+          }
+        },
+        {
+          "key": "UISource",
+          "type": 10,
+          "value": {
+            "$ref": 49
+          }
+        },
+        {
+          "key": "UIDestination",
+          "type": 10,
+          "value": {
+            "$ref": 24
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIDestination": [
+          {
+            "key": "UIDestination",
+            "type": 10,
+            "value": {
+              "$ref": 24
+            }
+          }
+        ],
+        "UILabel": [
+          {
+            "key": "UILabel",
+            "type": 10,
+            "value": {
+              "$ref": 72
+            }
+          }
+        ],
+        "UISource": [
+          {
+            "key": "UISource",
+            "type": 10,
+            "value": {
+              "$ref": 49
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 54,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "7365744c6f636174696f6e427574746f6e",
+            "$text": "setLocationButton"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "7365744c6f636174696f6e427574746f6e",
+              "$text": "setLocationButton"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSMutableDictionary",
+      "index": 55,
+      "properties": [
+        {
+          "key": "NSInlinedValue",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 74
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 95
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 36
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 89
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NSInlinedValue": [
+          {
+            "key": "NSInlinedValue",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UINibEncoderEmptyKey": [
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 74
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 95
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 36
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 89
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSMutableArray",
+      "index": 56,
+      "properties": [
+        {
+          "key": "NSInlinedValue",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 10
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NSInlinedValue": [
+          {
+            "key": "NSInlinedValue",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UINibEncoderEmptyKey": [
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 10
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSDate",
+      "index": 57,
+      "properties": [
+        {
+          "key": "NS.time",
+          "type": 7,
+          "value": 362628988.476194
+        }
+      ],
+      "properties_by_key": {
+        "NS.time": [
+          {
+            "key": "NS.time",
+            "type": 7,
+            "value": 362628988.476194
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIRuntimeEventConnection",
+      "index": 58,
+      "properties": [
+        {
+          "key": "UILabel",
+          "type": 10,
+          "value": {
+            "$ref": 119
+          }
+        },
+        {
+          "key": "UISource",
+          "type": 10,
+          "value": {
+            "$ref": 13
+          }
+        },
+        {
+          "key": "UIDestination",
+          "type": 10,
+          "value": {
+            "$ref": 49
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIDestination": [
+          {
+            "key": "UIDestination",
+            "type": 10,
+            "value": {
+              "$ref": 49
+            }
+          }
+        ],
+        "UILabel": [
+          {
+            "key": "UILabel",
+            "type": 10,
+            "value": {
+              "$ref": 119
+            }
+          }
+        ],
+        "UISource": [
+          {
+            "key": "UISource",
+            "type": 10,
+            "value": {
+              "$ref": 13
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIBarButtonItem",
+      "index": 59,
+      "properties": [
+        {
+          "key": "UIEnabled",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIIsSystemItem",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UISystemItem",
+          "type": 0,
+          "value": 1
+        },
+        {
+          "key": "UIStyle",
+          "type": 0,
+          "value": 1
+        }
+      ],
+      "properties_by_key": {
+        "UIEnabled": [
+          {
+            "key": "UIEnabled",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIIsSystemItem": [
+          {
+            "key": "UIIsSystemItem",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIStyle": [
+          {
+            "key": "UIStyle",
+            "type": 0,
+            "value": 1
+          }
+        ],
+        "UISystemItem": [
+          {
+            "key": "UISystemItem",
+            "type": 0,
+            "value": 1
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 60,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "48656c766574696361",
+            "$text": "Helvetica"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "48656c766574696361",
+              "$text": "Helvetica"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIColor",
+      "index": 61,
+      "properties": [
+        {
+          "key": "UIColorComponentCount",
+          "type": 0,
+          "value": 4
+        },
+        {
+          "key": "UIRed",
+          "type": 6,
+          "value": 0.5
+        },
+        {
+          "key": "UIGreen",
+          "type": 6,
+          "value": 0.5
+        },
+        {
+          "key": "UIBlue",
+          "type": 6,
+          "value": 0.5
+        },
+        {
+          "key": "UIAlpha",
+          "type": 6,
+          "value": 1.0
+        },
+        {
+          "key": "NSRGB",
+          "type": 8,
+          "value": {
+            "$data_hex": "302e3520302e3520302e35",
+            "$text": "0.5 0.5 0.5"
+          }
+        },
+        {
+          "key": "NSColorSpace",
+          "type": 0,
+          "value": 2
+        }
+      ],
+      "properties_by_key": {
+        "NSColorSpace": [
+          {
+            "key": "NSColorSpace",
+            "type": 0,
+            "value": 2
+          }
+        ],
+        "NSRGB": [
+          {
+            "key": "NSRGB",
+            "type": 8,
+            "value": {
+              "$data_hex": "302e3520302e3520302e35",
+              "$text": "0.5 0.5 0.5"
+            }
+          }
+        ],
+        "UIAlpha": [
+          {
+            "key": "UIAlpha",
+            "type": 6,
+            "value": 1.0
+          }
+        ],
+        "UIBlue": [
+          {
+            "key": "UIBlue",
+            "type": 6,
+            "value": 0.5
+          }
+        ],
+        "UIColorComponentCount": [
+          {
+            "key": "UIColorComponentCount",
+            "type": 0,
+            "value": 4
+          }
+        ],
+        "UIGreen": [
+          {
+            "key": "UIGreen",
+            "type": 6,
+            "value": 0.5
+          }
+        ],
+        "UIRed": [
+          {
+            "key": "UIRed",
+            "type": 6,
+            "value": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIFont",
+      "index": 62,
+      "properties": [
+        {
+          "key": "UIFontName",
+          "type": 10,
+          "value": {
+            "$ref": 60
+          }
+        },
+        {
+          "key": "UIFontPointSize",
+          "type": 7,
+          "value": 16.0
+        },
+        {
+          "key": "UIFontTraits",
+          "type": 0,
+          "value": 0
+        },
+        {
+          "key": "UISystemFont",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "NSName",
+          "type": 10,
+          "value": {
+            "$ref": 60
+          }
+        },
+        {
+          "key": "NSSize",
+          "type": 7,
+          "value": 16.0
+        }
+      ],
+      "properties_by_key": {
+        "NSName": [
+          {
+            "key": "NSName",
+            "type": 10,
+            "value": {
+              "$ref": 60
+            }
+          }
+        ],
+        "NSSize": [
+          {
+            "key": "NSSize",
+            "type": 7,
+            "value": 16.0
+          }
+        ],
+        "UIFontName": [
+          {
+            "key": "UIFontName",
+            "type": 10,
+            "value": {
+              "$ref": 60
+            }
+          }
+        ],
+        "UIFontPointSize": [
+          {
+            "key": "UIFontPointSize",
+            "type": 7,
+            "value": 16.0
+          }
+        ],
+        "UIFontTraits": [
+          {
+            "key": "UIFontTraits",
+            "type": 0,
+            "value": 0
+          }
+        ],
+        "UISystemFont": [
+          {
+            "key": "UISystemFont",
+            "type": 5,
+            "value": false
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSLocale",
+      "index": 63,
+      "properties": [
+        {
+          "key": "NS.identifier",
+          "type": 10,
+          "value": {
+            "$ref": 40
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.identifier": [
+          {
+            "key": "NS.identifier",
+            "type": 10,
+            "value": {
+              "$ref": 40
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSArray",
+      "index": 64,
+      "properties": [
+        {
+          "key": "NSInlinedValue",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 122
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 96
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 86
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NSInlinedValue": [
+          {
+            "key": "NSInlinedValue",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UINibEncoderEmptyKey": [
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 122
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 96
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 86
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 65,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "64656c657465416374696f6e3a",
+            "$text": "deleteAction:"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "64656c657465416374696f6e3a",
+              "$text": "deleteAction:"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIRuntimeOutletConnection",
+      "index": 66,
+      "properties": [
+        {
+          "key": "UILabel",
+          "type": 10,
+          "value": {
+            "$ref": 11
+          }
+        },
+        {
+          "key": "UISource",
+          "type": 10,
+          "value": {
+            "$ref": 49
+          }
+        },
+        {
+          "key": "UIDestination",
+          "type": 10,
+          "value": {
+            "$ref": 10
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIDestination": [
+          {
+            "key": "UIDestination",
+            "type": 10,
+            "value": {
+              "$ref": 10
+            }
+          }
+        ],
+        "UILabel": [
+          {
+            "key": "UILabel",
+            "type": 10,
+            "value": {
+              "$ref": 11
+            }
+          }
+        ],
+        "UISource": [
+          {
+            "key": "UISource",
+            "type": 10,
+            "value": {
+              "$ref": 49
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIButtonContent",
+      "index": 67,
+      "properties": [
+        {
+          "key": "UITitleColor",
+          "type": 10,
+          "value": {
+            "$ref": 26
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UITitleColor": [
+          {
+            "key": "UITitleColor",
+            "type": 10,
+            "value": {
+              "$ref": 26
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 68,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "746f6f6c626172",
+            "$text": "toolbar"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "746f6f6c626172",
+              "$text": "toolbar"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 69,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "64656c657465",
+            "$text": "delete"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "64656c657465",
+              "$text": "delete"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIClassSwapper",
+      "index": 70,
+      "properties": [
+        {
+          "key": "UIBounds",
+          "type": 8,
+          "value": {
+            "$data_hex": "0600000000000000000000a04300003042",
+            "$floats": [
+              0.0,
+              0.0,
+              320.0,
+              44.0
+            ]
+          }
+        },
+        {
+          "key": "UICenter",
+          "type": 8,
+          "value": {
+            "$data_hex": "06000020430000b041",
+            "$floats": [
+              160.0,
+              22.0
+            ]
+          }
+        },
+        {
+          "key": "UIOpaque",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIAutoresizeSubviews",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIAutoresizingMask",
+          "type": 0,
+          "value": 10
+        },
+        {
+          "key": "UIClearsContextBeforeDrawing",
+          "type": 4,
+          "value": true
+        },
+        {
+          "key": "UIViewContentHuggingPriority",
+          "type": 10,
+          "value": {
+            "$ref": 35
+          }
+        },
+        {
+          "key": "UIItems",
+          "type": 10,
+          "value": {
+            "$ref": 64
+          }
+        },
+        {
+          "key": "UIClassName",
+          "type": 10,
+          "value": {
+            "$ref": 80
+          }
+        },
+        {
+          "key": "UIOriginalClassName",
+          "type": 10,
+          "value": {
+            "$ref": 31
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIAutoresizeSubviews": [
+          {
+            "key": "UIAutoresizeSubviews",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIAutoresizingMask": [
+          {
+            "key": "UIAutoresizingMask",
+            "type": 0,
+            "value": 10
+          }
+        ],
+        "UIBounds": [
+          {
+            "key": "UIBounds",
+            "type": 8,
+            "value": {
+              "$data_hex": "0600000000000000000000a04300003042",
+              "$floats": [
+                0.0,
+                0.0,
+                320.0,
+                44.0
+              ]
+            }
+          }
+        ],
+        "UICenter": [
+          {
+            "key": "UICenter",
+            "type": 8,
+            "value": {
+              "$data_hex": "06000020430000b041",
+              "$floats": [
+                160.0,
+                22.0
+              ]
+            }
+          }
+        ],
+        "UIClassName": [
+          {
+            "key": "UIClassName",
+            "type": 10,
+            "value": {
+              "$ref": 80
+            }
+          }
+        ],
+        "UIClearsContextBeforeDrawing": [
+          {
+            "key": "UIClearsContextBeforeDrawing",
+            "type": 4,
+            "value": true
+          }
+        ],
+        "UIItems": [
+          {
+            "key": "UIItems",
+            "type": 10,
+            "value": {
+              "$ref": 64
+            }
+          }
+        ],
+        "UIOpaque": [
+          {
+            "key": "UIOpaque",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIOriginalClassName": [
+          {
+            "key": "UIOriginalClassName",
+            "type": 10,
+            "value": {
+              "$ref": 31
+            }
+          }
+        ],
+        "UIViewContentHuggingPriority": [
+          {
+            "key": "UIViewContentHuggingPriority",
+            "type": 10,
+            "value": {
+              "$ref": 35
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UITextSelectionView",
+      "index": 71,
+      "properties": [
+        {
+          "key": "UIOpaque",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIUserInteractionDisabled",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIAutoresizeSubviews",
+          "type": 5,
+          "value": false
+        }
+      ],
+      "properties_by_key": {
+        "UIAutoresizeSubviews": [
+          {
+            "key": "UIAutoresizeSubviews",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIOpaque": [
+          {
+            "key": "UIOpaque",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIUserInteractionDisabled": [
+          {
+            "key": "UIUserInteractionDisabled",
+            "type": 5,
+            "value": false
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 72,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "7069636b6572546f6f6c626172",
+            "$text": "pickerToolbar"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "7069636b6572546f6f6c626172",
+              "$text": "pickerToolbar"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIRuntimeEventConnection",
+      "index": 73,
+      "properties": [
+        {
+          "key": "UILabel",
+          "type": 10,
+          "value": {
+            "$ref": 102
+          }
+        },
+        {
+          "key": "UISource",
+          "type": 10,
+          "value": {
+            "$ref": 86
+          }
+        },
+        {
+          "key": "UIDestination",
+          "type": 10,
+          "value": {
+            "$ref": 49
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIDestination": [
+          {
+            "key": "UIDestination",
+            "type": 10,
+            "value": {
+              "$ref": 49
+            }
+          }
+        ],
+        "UILabel": [
+          {
+            "key": "UILabel",
+            "type": 10,
+            "value": {
+              "$ref": 102
+            }
+          }
+        ],
+        "UISource": [
+          {
+            "key": "UISource",
+            "type": 10,
+            "value": {
+              "$ref": 86
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSNumber",
+      "index": 74,
+      "properties": [
+        {
+          "key": "NS.intval",
+          "type": 0,
+          "value": 0
+        }
+      ],
+      "properties_by_key": {
+        "NS.intval": [
+          {
+            "key": "NS.intval",
+            "type": 0,
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIRoundedRectButton",
+      "index": 75,
+      "properties": [
+        {
+          "key": "UIBounds",
+          "type": 8,
+          "value": {
+            "$data_hex": "06000000000000000000008c4300001442",
+            "$floats": [
+              0.0,
+              0.0,
+              280.0,
+              37.0
+            ]
+          }
+        },
+        {
+          "key": "UICenter",
+          "type": 8,
+          "value": {
+            "$data_hex": "060000204300c0d243",
+            "$floats": [
+              160.0,
+              421.5
+            ]
+          }
+        },
+        {
+          "key": "UIAutoresizeSubviews",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIAutoresizingMask",
+          "type": 0,
+          "value": 36
+        },
+        {
+          "key": "UIButtonStatefulContent",
+          "type": 10,
+          "value": {
+            "$ref": 55
+          }
+        },
+        {
+          "key": "UIAdjustsImageWhenHighlighted",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIAdjustsImageWhenDisabled",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIButtonType",
+          "type": 0,
+          "value": 1
+        },
+        {
+          "key": "UIFont",
+          "type": 10,
+          "value": {
+            "$ref": 93
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIAdjustsImageWhenDisabled": [
+          {
+            "key": "UIAdjustsImageWhenDisabled",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIAdjustsImageWhenHighlighted": [
+          {
+            "key": "UIAdjustsImageWhenHighlighted",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIAutoresizeSubviews": [
+          {
+            "key": "UIAutoresizeSubviews",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIAutoresizingMask": [
+          {
+            "key": "UIAutoresizingMask",
+            "type": 0,
+            "value": 36
+          }
+        ],
+        "UIBounds": [
+          {
+            "key": "UIBounds",
+            "type": 8,
+            "value": {
+              "$data_hex": "06000000000000000000008c4300001442",
+              "$floats": [
+                0.0,
+                0.0,
+                280.0,
+                37.0
+              ]
+            }
+          }
+        ],
+        "UIButtonStatefulContent": [
+          {
+            "key": "UIButtonStatefulContent",
+            "type": 10,
+            "value": {
+              "$ref": 55
+            }
+          }
+        ],
+        "UIButtonType": [
+          {
+            "key": "UIButtonType",
+            "type": 0,
+            "value": 1
+          }
+        ],
+        "UICenter": [
+          {
+            "key": "UICenter",
+            "type": 8,
+            "value": {
+              "$data_hex": "060000204300c0d243",
+              "$floats": [
+                160.0,
+                421.5
+              ]
+            }
+          }
+        ],
+        "UIFont": [
+          {
+            "key": "UIFont",
+            "type": 10,
+            "value": {
+              "$ref": 93
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSArray",
+      "index": 76,
+      "properties": [
+        {
+          "key": "NSInlinedValue",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 58
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 16
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 87
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 33
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 106
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 73
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 45
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 100
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 20
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 85
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 25
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 23
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 99
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 39
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 110
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 53
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 118
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 66
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 4
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 78
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 19
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 97
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 37
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 108
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NSInlinedValue": [
+          {
+            "key": "NSInlinedValue",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UINibEncoderEmptyKey": [
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 58
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 16
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 87
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 33
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 106
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 73
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 45
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 100
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 20
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 85
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 25
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 23
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 99
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 39
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 110
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 53
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 118
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 66
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 4
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 78
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 19
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 97
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 37
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 108
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSArray",
+      "index": 77,
+      "properties": [
+        {
+          "key": "NSInlinedValue",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 13
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 34
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 42
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NSInlinedValue": [
+          {
+            "key": "NSInlinedValue",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UINibEncoderEmptyKey": [
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 13
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 34
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 42
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIRuntimeOutletConnection",
+      "index": 78,
+      "properties": [
+        {
+          "key": "UILabel",
+          "type": 10,
+          "value": {
+            "$ref": 92
+          }
+        },
+        {
+          "key": "UISource",
+          "type": 10,
+          "value": {
+            "$ref": 49
+          }
+        },
+        {
+          "key": "UIDestination",
+          "type": 10,
+          "value": {
+            "$ref": 75
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIDestination": [
+          {
+            "key": "UIDestination",
+            "type": 10,
+            "value": {
+              "$ref": 75
+            }
+          }
+        ],
+        "UILabel": [
+          {
+            "key": "UILabel",
+            "type": 10,
+            "value": {
+              "$ref": 92
+            }
+          }
+        ],
+        "UISource": [
+          {
+            "key": "UISource",
+            "type": 10,
+            "value": {
+              "$ref": 49
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 79,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "64656c6567617465",
+            "$text": "delegate"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "64656c6567617465",
+              "$text": "delegate"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 80,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "50686f6e654e6f746556696577496e7075744163636573736f7279",
+            "$text": "PhoneNoteViewInputAccessory"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "50686f6e654e6f746556696577496e7075744163636573736f7279",
+              "$text": "PhoneNoteViewInputAccessory"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 81,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "494246696c65734f776e6572",
+            "$text": "IBFilesOwner"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "494246696c65734f776e6572",
+              "$text": "IBFilesOwner"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 82,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "696d675f636c6f636b2e706e67",
+            "$text": "img_clock.png"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "696d675f636c6f636b2e706e67",
+              "$text": "img_clock.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 83,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "48656c7665746963612d426f6c64",
+            "$text": "Helvetica-Bold"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "48656c7665746963612d426f6c64",
+              "$text": "Helvetica-Bold"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 84,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "73657452656d696e64657244617465416374696f6e3a",
+            "$text": "setReminderDateAction:"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "73657452656d696e64657244617465416374696f6e3a",
+              "$text": "setReminderDateAction:"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIRuntimeEventConnection",
+      "index": 85,
+      "properties": [
+        {
+          "key": "UILabel",
+          "type": 10,
+          "value": {
+            "$ref": 113
+          }
+        },
+        {
+          "key": "UISource",
+          "type": 10,
+          "value": {
+            "$ref": 75
+          }
+        },
+        {
+          "key": "UIDestination",
+          "type": 10,
+          "value": {
+            "$ref": 49
+          }
+        },
+        {
+          "key": "UIEventMask",
+          "type": 0,
+          "value": 64
+        }
+      ],
+      "properties_by_key": {
+        "UIDestination": [
+          {
+            "key": "UIDestination",
+            "type": 10,
+            "value": {
+              "$ref": 49
+            }
+          }
+        ],
+        "UIEventMask": [
+          {
+            "key": "UIEventMask",
+            "type": 0,
+            "value": 64
+          }
+        ],
+        "UILabel": [
+          {
+            "key": "UILabel",
+            "type": 10,
+            "value": {
+              "$ref": 113
+            }
+          }
+        ],
+        "UISource": [
+          {
+            "key": "UISource",
+            "type": 10,
+            "value": {
+              "$ref": 75
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIBarButtonItem",
+      "index": 86,
+      "properties": [
+        {
+          "key": "UIEnabled",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIIsSystemItem",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UISystemItem",
+          "type": 0,
+          "value": 0
+        },
+        {
+          "key": "UIStyle",
+          "type": 0,
+          "value": 2
+        }
+      ],
+      "properties_by_key": {
+        "UIEnabled": [
+          {
+            "key": "UIEnabled",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIIsSystemItem": [
+          {
+            "key": "UIIsSystemItem",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIStyle": [
+          {
+            "key": "UIStyle",
+            "type": 0,
+            "value": 2
+          }
+        ],
+        "UISystemItem": [
+          {
+            "key": "UISystemItem",
+            "type": 0,
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIRuntimeEventConnection",
+      "index": 87,
+      "properties": [
+        {
+          "key": "UILabel",
+          "type": 10,
+          "value": {
+            "$ref": 107
+          }
+        },
+        {
+          "key": "UISource",
+          "type": 10,
+          "value": {
+            "$ref": 46
+          }
+        },
+        {
+          "key": "UIDestination",
+          "type": 10,
+          "value": {
+            "$ref": 49
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIDestination": [
+          {
+            "key": "UIDestination",
+            "type": 10,
+            "value": {
+              "$ref": 49
+            }
+          }
+        ],
+        "UILabel": [
+          {
+            "key": "UILabel",
+            "type": 10,
+            "value": {
+              "$ref": 107
+            }
+          }
+        ],
+        "UISource": [
+          {
+            "key": "UISource",
+            "type": 10,
+            "value": {
+              "$ref": 46
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSMutableArray",
+      "index": 88,
+      "properties": [
+        {
+          "key": "NSInlinedValue",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 71
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NSInlinedValue": [
+          {
+            "key": "NSInlinedValue",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UINibEncoderEmptyKey": [
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 71
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIButtonContent",
+      "index": 89,
+      "properties": [
+        {
+          "key": "UITitleColor",
+          "type": 10,
+          "value": {
+            "$ref": 26
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UITitleColor": [
+          {
+            "key": "UITitleColor",
+            "type": 10,
+            "value": {
+              "$ref": 26
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSArray",
+      "index": 90,
+      "properties": [
+        {
+          "key": "NSInlinedValue",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 49
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 48
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 21
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 70
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NSInlinedValue": [
+          {
+            "key": "NSInlinedValue",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UINibEncoderEmptyKey": [
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 49
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 48
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 21
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 70
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIClassSwapper",
+      "index": 91,
+      "properties": [
+        {
+          "key": "UIBounds",
+          "type": 8,
+          "value": {
+            "$data_hex": "0600000000000000000000954300005343",
+            "$floats": [
+              0.0,
+              0.0,
+              298.0,
+              211.0
+            ]
+          }
+        },
+        {
+          "key": "UICenter",
+          "type": 8,
+          "value": {
+            "$data_hex": "060000204300803443",
+            "$floats": [
+              160.0,
+              180.5
+            ]
+          }
+        },
+        {
+          "key": "UISubviews",
+          "type": 10,
+          "value": {
+            "$ref": 88
+          }
+        },
+        {
+          "key": "UIBackgroundColor",
+          "type": 10,
+          "value": {
+            "$ref": 41
+          }
+        },
+        {
+          "key": "UIOpaque",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIMultipleTouchEnabled",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIAutoresizeSubviews",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIAutoresizingMask",
+          "type": 0,
+          "value": 34
+        },
+        {
+          "key": "UIClipsToBounds",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIShowsHorizontalScrollIndicator",
+          "type": 4,
+          "value": true
+        },
+        {
+          "key": "UIShowsVerticalScrollIndicator",
+          "type": 4,
+          "value": true
+        },
+        {
+          "key": "UIScrollDisabled",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIBouncesZoom",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIContentSize",
+          "type": 8,
+          "value": {
+            "$data_hex": "060000954300001042",
+            "$floats": [
+              298.0,
+              36.0
+            ]
+          }
+        },
+        {
+          "key": "UIFont",
+          "type": 10,
+          "value": {
+            "$ref": 62
+          }
+        },
+        {
+          "key": "UITextColor",
+          "type": 10,
+          "value": {
+            "$ref": 111
+          }
+        },
+        {
+          "key": "UITextAlignment",
+          "type": 0,
+          "value": 0
+        },
+        {
+          "key": "UIClassName",
+          "type": 10,
+          "value": {
+            "$ref": 9
+          }
+        },
+        {
+          "key": "UIOriginalClassName",
+          "type": 10,
+          "value": {
+            "$ref": 27
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIAutoresizeSubviews": [
+          {
+            "key": "UIAutoresizeSubviews",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIAutoresizingMask": [
+          {
+            "key": "UIAutoresizingMask",
+            "type": 0,
+            "value": 34
+          }
+        ],
+        "UIBackgroundColor": [
+          {
+            "key": "UIBackgroundColor",
+            "type": 10,
+            "value": {
+              "$ref": 41
+            }
+          }
+        ],
+        "UIBouncesZoom": [
+          {
+            "key": "UIBouncesZoom",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIBounds": [
+          {
+            "key": "UIBounds",
+            "type": 8,
+            "value": {
+              "$data_hex": "0600000000000000000000954300005343",
+              "$floats": [
+                0.0,
+                0.0,
+                298.0,
+                211.0
+              ]
+            }
+          }
+        ],
+        "UICenter": [
+          {
+            "key": "UICenter",
+            "type": 8,
+            "value": {
+              "$data_hex": "060000204300803443",
+              "$floats": [
+                160.0,
+                180.5
+              ]
+            }
+          }
+        ],
+        "UIClassName": [
+          {
+            "key": "UIClassName",
+            "type": 10,
+            "value": {
+              "$ref": 9
+            }
+          }
+        ],
+        "UIClipsToBounds": [
+          {
+            "key": "UIClipsToBounds",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIContentSize": [
+          {
+            "key": "UIContentSize",
+            "type": 8,
+            "value": {
+              "$data_hex": "060000954300001042",
+              "$floats": [
+                298.0,
+                36.0
+              ]
+            }
+          }
+        ],
+        "UIFont": [
+          {
+            "key": "UIFont",
+            "type": 10,
+            "value": {
+              "$ref": 62
+            }
+          }
+        ],
+        "UIMultipleTouchEnabled": [
+          {
+            "key": "UIMultipleTouchEnabled",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIOpaque": [
+          {
+            "key": "UIOpaque",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIOriginalClassName": [
+          {
+            "key": "UIOriginalClassName",
+            "type": 10,
+            "value": {
+              "$ref": 27
+            }
+          }
+        ],
+        "UIScrollDisabled": [
+          {
+            "key": "UIScrollDisabled",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIShowsHorizontalScrollIndicator": [
+          {
+            "key": "UIShowsHorizontalScrollIndicator",
+            "type": 4,
+            "value": true
+          }
+        ],
+        "UIShowsVerticalScrollIndicator": [
+          {
+            "key": "UIShowsVerticalScrollIndicator",
+            "type": 4,
+            "value": true
+          }
+        ],
+        "UISubviews": [
+          {
+            "key": "UISubviews",
+            "type": 10,
+            "value": {
+              "$ref": 88
+            }
+          }
+        ],
+        "UITextAlignment": [
+          {
+            "key": "UITextAlignment",
+            "type": 0,
+            "value": 0
+          }
+        ],
+        "UITextColor": [
+          {
+            "key": "UITextColor",
+            "type": 10,
+            "value": {
+              "$ref": 111
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 92,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "7365745370616365427574746f6e",
+            "$text": "setSpaceButton"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "7365745370616365427574746f6e",
+              "$text": "setSpaceButton"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIFont",
+      "index": 93,
+      "properties": [
+        {
+          "key": "UIFontName",
+          "type": 10,
+          "value": {
+            "$ref": 83
+          }
+        },
+        {
+          "key": "UIFontPointSize",
+          "type": 7,
+          "value": 15.0
+        },
+        {
+          "key": "UIFontTraits",
+          "type": 0,
+          "value": 2
+        },
+        {
+          "key": "UISystemFont",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "NSName",
+          "type": 10,
+          "value": {
+            "$ref": 83
+          }
+        },
+        {
+          "key": "NSSize",
+          "type": 7,
+          "value": 15.0
+        }
+      ],
+      "properties_by_key": {
+        "NSName": [
+          {
+            "key": "NSName",
+            "type": 10,
+            "value": {
+              "$ref": 83
+            }
+          }
+        ],
+        "NSSize": [
+          {
+            "key": "NSSize",
+            "type": 7,
+            "value": 15.0
+          }
+        ],
+        "UIFontName": [
+          {
+            "key": "UIFontName",
+            "type": 10,
+            "value": {
+              "$ref": 83
+            }
+          }
+        ],
+        "UIFontPointSize": [
+          {
+            "key": "UIFontPointSize",
+            "type": 7,
+            "value": 15.0
+          }
+        ],
+        "UIFontTraits": [
+          {
+            "key": "UIFontTraits",
+            "type": 0,
+            "value": 2
+          }
+        ],
+        "UISystemFont": [
+          {
+            "key": "UISystemFont",
+            "type": 5,
+            "value": false
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 94,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "64617465",
+            "$text": "date"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "64617465",
+              "$text": "date"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIButtonContent",
+      "index": 95,
+      "properties": [
+        {
+          "key": "UITitle",
+          "type": 10,
+          "value": {
+            "$ref": 114
+          }
+        },
+        {
+          "key": "UITitleColor",
+          "type": 10,
+          "value": {
+            "$ref": 105
+          }
+        },
+        {
+          "key": "UIShadowColor",
+          "type": 10,
+          "value": {
+            "$ref": 61
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIShadowColor": [
+          {
+            "key": "UIShadowColor",
+            "type": 10,
+            "value": {
+              "$ref": 61
+            }
+          }
+        ],
+        "UITitle": [
+          {
+            "key": "UITitle",
+            "type": 10,
+            "value": {
+              "$ref": 114
+            }
+          }
+        ],
+        "UITitleColor": [
+          {
+            "key": "UITitleColor",
+            "type": 10,
+            "value": {
+              "$ref": 105
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIBarButtonItem",
+      "index": 96,
+      "properties": [
+        {
+          "key": "UIEnabled",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIIsSystemItem",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UISystemItem",
+          "type": 0,
+          "value": 5
+        }
+      ],
+      "properties_by_key": {
+        "UIEnabled": [
+          {
+            "key": "UIEnabled",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIIsSystemItem": [
+          {
+            "key": "UIIsSystemItem",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UISystemItem": [
+          {
+            "key": "UISystemItem",
+            "type": 0,
+            "value": 5
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIRuntimeOutletConnection",
+      "index": 97,
+      "properties": [
+        {
+          "key": "UILabel",
+          "type": 10,
+          "value": {
+            "$ref": 32
+          }
+        },
+        {
+          "key": "UISource",
+          "type": 10,
+          "value": {
+            "$ref": 49
+          }
+        },
+        {
+          "key": "UIDestination",
+          "type": 10,
+          "value": {
+            "$ref": 104
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIDestination": [
+          {
+            "key": "UIDestination",
+            "type": 10,
+            "value": {
+              "$ref": 104
+            }
+          }
+        ],
+        "UILabel": [
+          {
+            "key": "UILabel",
+            "type": 10,
+            "value": {
+              "$ref": 32
+            }
+          }
+        ],
+        "UISource": [
+          {
+            "key": "UISource",
+            "type": 10,
+            "value": {
+              "$ref": 49
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSMutableDictionary",
+      "index": 98,
+      "properties": [
+        {
+          "key": "NSInlinedValue",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 74
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 116
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 36
+          }
+        },
+        {
+          "key": "UINibEncoderEmptyKey",
+          "type": 10,
+          "value": {
+            "$ref": 67
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NSInlinedValue": [
+          {
+            "key": "NSInlinedValue",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UINibEncoderEmptyKey": [
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 74
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 116
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 36
+            }
+          },
+          {
+            "key": "UINibEncoderEmptyKey",
+            "type": 10,
+            "value": {
+              "$ref": 67
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIRuntimeOutletConnection",
+      "index": 99,
+      "properties": [
+        {
+          "key": "UILabel",
+          "type": 10,
+          "value": {
+            "$ref": 79
+          }
+        },
+        {
+          "key": "UISource",
+          "type": 10,
+          "value": {
+            "$ref": 70
+          }
+        },
+        {
+          "key": "UIDestination",
+          "type": 10,
+          "value": {
+            "$ref": 49
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIDestination": [
+          {
+            "key": "UIDestination",
+            "type": 10,
+            "value": {
+              "$ref": 49
+            }
+          }
+        ],
+        "UILabel": [
+          {
+            "key": "UILabel",
+            "type": 10,
+            "value": {
+              "$ref": 79
+            }
+          }
+        ],
+        "UISource": [
+          {
+            "key": "UISource",
+            "type": 10,
+            "value": {
+              "$ref": 70
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIRuntimeEventConnection",
+      "index": 100,
+      "properties": [
+        {
+          "key": "UILabel",
+          "type": 10,
+          "value": {
+            "$ref": 47
+          }
+        },
+        {
+          "key": "UISource",
+          "type": 10,
+          "value": {
+            "$ref": 121
+          }
+        },
+        {
+          "key": "UIDestination",
+          "type": 10,
+          "value": {
+            "$ref": 49
+          }
+        },
+        {
+          "key": "UIEventMask",
+          "type": 0,
+          "value": 64
+        }
+      ],
+      "properties_by_key": {
+        "UIDestination": [
+          {
+            "key": "UIDestination",
+            "type": 10,
+            "value": {
+              "$ref": 49
+            }
+          }
+        ],
+        "UIEventMask": [
+          {
+            "key": "UIEventMask",
+            "type": 0,
+            "value": 64
+          }
+        ],
+        "UILabel": [
+          {
+            "key": "UILabel",
+            "type": 10,
+            "value": {
+              "$ref": 47
+            }
+          }
+        ],
+        "UISource": [
+          {
+            "key": "UISource",
+            "type": 10,
+            "value": {
+              "$ref": 121
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 101,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "536574204c6f636174696f6e",
+            "$text": "Set Location"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "536574204c6f636174696f6e",
+              "$text": "Set Location"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 102,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "646f6e6545646974696e67416374696f6e3a",
+            "$text": "doneEditingAction:"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "646f6e6545646974696e67416374696f6e3a",
+              "$text": "doneEditingAction:"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 103,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "76696577",
+            "$text": "view"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "76696577",
+              "$text": "view"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIView",
+      "index": 104,
+      "properties": [
+        {
+          "key": "UIBounds",
+          "type": 8,
+          "value": {
+            "$data_hex": "0600000000000000000000a04300009943",
+            "$floats": [
+              0.0,
+              0.0,
+              320.0,
+              306.0
+            ]
+          }
+        },
+        {
+          "key": "UICenter",
+          "type": 8,
+          "value": {
+            "$data_hex": "060000204300004543",
+            "$floats": [
+              160.0,
+              197.0
+            ]
+          }
+        },
+        {
+          "key": "UISubviews",
+          "type": 10,
+          "value": {
+            "$ref": 56
+          }
+        },
+        {
+          "key": "UIBackgroundColor",
+          "type": 10,
+          "value": {
+            "$ref": 41
+          }
+        },
+        {
+          "key": "UIOpaque",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIAutoresizeSubviews",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIAutoresizingMask",
+          "type": 0,
+          "value": 10
+        }
+      ],
+      "properties_by_key": {
+        "UIAutoresizeSubviews": [
+          {
+            "key": "UIAutoresizeSubviews",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIAutoresizingMask": [
+          {
+            "key": "UIAutoresizingMask",
+            "type": 0,
+            "value": 10
+          }
+        ],
+        "UIBackgroundColor": [
+          {
+            "key": "UIBackgroundColor",
+            "type": 10,
+            "value": {
+              "$ref": 41
+            }
+          }
+        ],
+        "UIBounds": [
+          {
+            "key": "UIBounds",
+            "type": 8,
+            "value": {
+              "$data_hex": "0600000000000000000000a04300009943",
+              "$floats": [
+                0.0,
+                0.0,
+                320.0,
+                306.0
+              ]
+            }
+          }
+        ],
+        "UICenter": [
+          {
+            "key": "UICenter",
+            "type": 8,
+            "value": {
+              "$data_hex": "060000204300004543",
+              "$floats": [
+                160.0,
+                197.0
+              ]
+            }
+          }
+        ],
+        "UIOpaque": [
+          {
+            "key": "UIOpaque",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UISubviews": [
+          {
+            "key": "UISubviews",
+            "type": 10,
+            "value": {
+              "$ref": 56
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIColor",
+      "index": 105,
+      "properties": [
+        {
+          "key": "UIColorComponentCount",
+          "type": 0,
+          "value": 4
+        },
+        {
+          "key": "UIRed",
+          "type": 6,
+          "value": 0.19607843458652496
+        },
+        {
+          "key": "UIGreen",
+          "type": 6,
+          "value": 0.30980393290519714
+        },
+        {
+          "key": "UIBlue",
+          "type": 6,
+          "value": 0.5215686559677124
+        },
+        {
+          "key": "UIAlpha",
+          "type": 6,
+          "value": 1.0
+        },
+        {
+          "key": "NSRGB",
+          "type": 8,
+          "value": {
+            "$data_hex": "302e31393620302e333120302e353232",
+            "$text": "0.196 0.31 0.522"
+          }
+        },
+        {
+          "key": "NSColorSpace",
+          "type": 0,
+          "value": 2
+        }
+      ],
+      "properties_by_key": {
+        "NSColorSpace": [
+          {
+            "key": "NSColorSpace",
+            "type": 0,
+            "value": 2
+          }
+        ],
+        "NSRGB": [
+          {
+            "key": "NSRGB",
+            "type": 8,
+            "value": {
+              "$data_hex": "302e31393620302e333120302e353232",
+              "$text": "0.196 0.31 0.522"
+            }
+          }
+        ],
+        "UIAlpha": [
+          {
+            "key": "UIAlpha",
+            "type": 6,
+            "value": 1.0
+          }
+        ],
+        "UIBlue": [
+          {
+            "key": "UIBlue",
+            "type": 6,
+            "value": 0.5215686559677124
+          }
+        ],
+        "UIColorComponentCount": [
+          {
+            "key": "UIColorComponentCount",
+            "type": 0,
+            "value": 4
+          }
+        ],
+        "UIGreen": [
+          {
+            "key": "UIGreen",
+            "type": 6,
+            "value": 0.30980393290519714
+          }
+        ],
+        "UIRed": [
+          {
+            "key": "UIRed",
+            "type": 6,
+            "value": 0.19607843458652496
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIRuntimeEventConnection",
+      "index": 106,
+      "properties": [
+        {
+          "key": "UILabel",
+          "type": 10,
+          "value": {
+            "$ref": 65
+          }
+        },
+        {
+          "key": "UISource",
+          "type": 10,
+          "value": {
+            "$ref": 28
+          }
+        },
+        {
+          "key": "UIDestination",
+          "type": 10,
+          "value": {
+            "$ref": 49
+          }
+        },
+        {
+          "key": "UIEventMask",
+          "type": 0,
+          "value": 64
+        }
+      ],
+      "properties_by_key": {
+        "UIDestination": [
+          {
+            "key": "UIDestination",
+            "type": 10,
+            "value": {
+              "$ref": 49
+            }
+          }
+        ],
+        "UIEventMask": [
+          {
+            "key": "UIEventMask",
+            "type": 0,
+            "value": 64
+          }
+        ],
+        "UILabel": [
+          {
+            "key": "UILabel",
+            "type": 10,
+            "value": {
+              "$ref": 65
+            }
+          }
+        ],
+        "UISource": [
+          {
+            "key": "UISource",
+            "type": 10,
+            "value": {
+              "$ref": 28
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 107,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "636c6f7365446174655069636b6572416374696f6e3a",
+            "$text": "closeDatePickerAction:"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "636c6f7365446174655069636b6572416374696f6e3a",
+              "$text": "closeDatePickerAction:"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIRuntimeOutletConnection",
+      "index": 108,
+      "properties": [
+        {
+          "key": "UILabel",
+          "type": 10,
+          "value": {
+            "$ref": 103
+          }
+        },
+        {
+          "key": "UISource",
+          "type": 10,
+          "value": {
+            "$ref": 49
+          }
+        },
+        {
+          "key": "UIDestination",
+          "type": 10,
+          "value": {
+            "$ref": 21
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIDestination": [
+          {
+            "key": "UIDestination",
+            "type": 10,
+            "value": {
+              "$ref": 21
+            }
+          }
+        ],
+        "UILabel": [
+          {
+            "key": "UILabel",
+            "type": 10,
+            "value": {
+              "$ref": 103
+            }
+          }
+        ],
+        "UISource": [
+          {
+            "key": "UISource",
+            "type": 10,
+            "value": {
+              "$ref": 49
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSArray",
+      "index": 109,
+      "properties": [
+        {
+          "key": "NSInlinedValue",
+          "type": 5,
+          "value": false
+        }
+      ],
+      "properties_by_key": {
+        "NSInlinedValue": [
+          {
+            "key": "NSInlinedValue",
+            "type": 5,
+            "value": false
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIRuntimeOutletConnection",
+      "index": 110,
+      "properties": [
+        {
+          "key": "UILabel",
+          "type": 10,
+          "value": {
+            "$ref": 44
+          }
+        },
+        {
+          "key": "UISource",
+          "type": 10,
+          "value": {
+            "$ref": 49
+          }
+        },
+        {
+          "key": "UIDestination",
+          "type": 10,
+          "value": {
+            "$ref": 91
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIDestination": [
+          {
+            "key": "UIDestination",
+            "type": 10,
+            "value": {
+              "$ref": 91
+            }
+          }
+        ],
+        "UILabel": [
+          {
+            "key": "UILabel",
+            "type": 10,
+            "value": {
+              "$ref": 44
+            }
+          }
+        ],
+        "UISource": [
+          {
+            "key": "UISource",
+            "type": 10,
+            "value": {
+              "$ref": 49
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIColor",
+      "index": 111,
+      "properties": [
+        {
+          "key": "UIColorComponentCount",
+          "type": 0,
+          "value": 4
+        },
+        {
+          "key": "UIRed",
+          "type": 6,
+          "value": 0.3333333432674408
+        },
+        {
+          "key": "UIGreen",
+          "type": 6,
+          "value": 0.3333333432674408
+        },
+        {
+          "key": "UIBlue",
+          "type": 6,
+          "value": 0.3333333432674408
+        },
+        {
+          "key": "UIAlpha",
+          "type": 6,
+          "value": 1.0
+        },
+        {
+          "key": "NSRGB",
+          "type": 8,
+          "value": {
+            "$data_hex": "302e33333320302e33333320302e333333",
+            "$text": "0.333 0.333 0.333"
+          }
+        },
+        {
+          "key": "NSColorSpace",
+          "type": 0,
+          "value": 2
+        }
+      ],
+      "properties_by_key": {
+        "NSColorSpace": [
+          {
+            "key": "NSColorSpace",
+            "type": 0,
+            "value": 2
+          }
+        ],
+        "NSRGB": [
+          {
+            "key": "NSRGB",
+            "type": 8,
+            "value": {
+              "$data_hex": "302e33333320302e33333320302e333333",
+              "$text": "0.333 0.333 0.333"
+            }
+          }
+        ],
+        "UIAlpha": [
+          {
+            "key": "UIAlpha",
+            "type": 6,
+            "value": 1.0
+          }
+        ],
+        "UIBlue": [
+          {
+            "key": "UIBlue",
+            "type": 6,
+            "value": 0.3333333432674408
+          }
+        ],
+        "UIColorComponentCount": [
+          {
+            "key": "UIColorComponentCount",
+            "type": 0,
+            "value": 4
+          }
+        ],
+        "UIGreen": [
+          {
+            "key": "UIGreen",
+            "type": 6,
+            "value": 0.3333333432674408
+          }
+        ],
+        "UIRed": [
+          {
+            "key": "UIRed",
+            "type": 6,
+            "value": 0.3333333432674408
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 112,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "72656d696e646572427574746f6e",
+            "$text": "reminderButton"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "72656d696e646572427574746f6e",
+              "$text": "reminderButton"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 113,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "7365745370616365416374696f6e3a",
+            "$text": "setSpaceAction:"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "7365745370616365416374696f6e3a",
+              "$text": "setSpaceAction:"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 114,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "536574205370616365",
+            "$text": "Set Space"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "536574205370616365",
+              "$text": "Set Space"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIImageNibPlaceholder",
+      "index": 115,
+      "properties": [
+        {
+          "key": "UIImageWidth",
+          "type": 6,
+          "value": 1.0
+        },
+        {
+          "key": "UIImageHeight",
+          "type": 6,
+          "value": 1.0
+        },
+        {
+          "key": "UIResourceName",
+          "type": 10,
+          "value": {
+            "$ref": 82
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIImageHeight": [
+          {
+            "key": "UIImageHeight",
+            "type": 6,
+            "value": 1.0
+          }
+        ],
+        "UIImageWidth": [
+          {
+            "key": "UIImageWidth",
+            "type": 6,
+            "value": 1.0
+          }
+        ],
+        "UIResourceName": [
+          {
+            "key": "UIResourceName",
+            "type": 10,
+            "value": {
+              "$ref": 82
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIButtonContent",
+      "index": 116,
+      "properties": [
+        {
+          "key": "UITitle",
+          "type": 10,
+          "value": {
+            "$ref": 101
+          }
+        },
+        {
+          "key": "UITitleColor",
+          "type": 10,
+          "value": {
+            "$ref": 105
+          }
+        },
+        {
+          "key": "UIShadowColor",
+          "type": 10,
+          "value": {
+            "$ref": 61
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIShadowColor": [
+          {
+            "key": "UIShadowColor",
+            "type": 10,
+            "value": {
+              "$ref": 61
+            }
+          }
+        ],
+        "UITitle": [
+          {
+            "key": "UITitle",
+            "type": 10,
+            "value": {
+              "$ref": 101
+            }
+          }
+        ],
+        "UITitleColor": [
+          {
+            "key": "UITitleColor",
+            "type": 10,
+            "value": {
+              "$ref": 105
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIColor",
+      "index": 117,
+      "properties": [
+        {
+          "key": "UIColorComponentCount",
+          "type": 0,
+          "value": 4
+        },
+        {
+          "key": "UIRed",
+          "type": 6,
+          "value": 0.6666666865348816
+        },
+        {
+          "key": "UIGreen",
+          "type": 6,
+          "value": 0.6666666865348816
+        },
+        {
+          "key": "UIBlue",
+          "type": 6,
+          "value": 0.6666666865348816
+        },
+        {
+          "key": "UIAlpha",
+          "type": 6,
+          "value": 1.0
+        },
+        {
+          "key": "NSRGB",
+          "type": 8,
+          "value": {
+            "$data_hex": "302e36363720302e36363720302e363637",
+            "$text": "0.667 0.667 0.667"
+          }
+        },
+        {
+          "key": "NSColorSpace",
+          "type": 0,
+          "value": 2
+        }
+      ],
+      "properties_by_key": {
+        "NSColorSpace": [
+          {
+            "key": "NSColorSpace",
+            "type": 0,
+            "value": 2
+          }
+        ],
+        "NSRGB": [
+          {
+            "key": "NSRGB",
+            "type": 8,
+            "value": {
+              "$data_hex": "302e36363720302e36363720302e363637",
+              "$text": "0.667 0.667 0.667"
+            }
+          }
+        ],
+        "UIAlpha": [
+          {
+            "key": "UIAlpha",
+            "type": 6,
+            "value": 1.0
+          }
+        ],
+        "UIBlue": [
+          {
+            "key": "UIBlue",
+            "type": 6,
+            "value": 0.6666666865348816
+          }
+        ],
+        "UIColorComponentCount": [
+          {
+            "key": "UIColorComponentCount",
+            "type": 0,
+            "value": 4
+          }
+        ],
+        "UIGreen": [
+          {
+            "key": "UIGreen",
+            "type": 6,
+            "value": 0.6666666865348816
+          }
+        ],
+        "UIRed": [
+          {
+            "key": "UIRed",
+            "type": 6,
+            "value": 0.6666666865348816
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIRuntimeOutletConnection",
+      "index": 118,
+      "properties": [
+        {
+          "key": "UILabel",
+          "type": 10,
+          "value": {
+            "$ref": 112
+          }
+        },
+        {
+          "key": "UISource",
+          "type": 10,
+          "value": {
+            "$ref": 49
+          }
+        },
+        {
+          "key": "UIDestination",
+          "type": 10,
+          "value": {
+            "$ref": 50
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIDestination": [
+          {
+            "key": "UIDestination",
+            "type": 10,
+            "value": {
+              "$ref": 50
+            }
+          }
+        ],
+        "UILabel": [
+          {
+            "key": "UILabel",
+            "type": 10,
+            "value": {
+              "$ref": 112
+            }
+          }
+        ],
+        "UISource": [
+          {
+            "key": "UISource",
+            "type": 10,
+            "value": {
+              "$ref": 49
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 119,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "63616e63656c416e644469736d697373416374696f6e3a",
+            "$text": "cancelAndDismissAction:"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "63616e63656c416e644469736d697373416374696f6e3a",
+              "$text": "cancelAndDismissAction:"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "NSString",
+      "index": 120,
+      "properties": [
+        {
+          "key": "NS.bytes",
+          "type": 8,
+          "value": {
+            "$data_hex": "746578744163636573736f727956696577",
+            "$text": "textAccessoryView"
+          }
+        }
+      ],
+      "properties_by_key": {
+        "NS.bytes": [
+          {
+            "key": "NS.bytes",
+            "type": 8,
+            "value": {
+              "$data_hex": "746578744163636573736f727956696577",
+              "$text": "textAccessoryView"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIRoundedRectButton",
+      "index": 121,
+      "properties": [
+        {
+          "key": "UIBounds",
+          "type": 8,
+          "value": {
+            "$data_hex": "06000000000000000000008c4300001442",
+            "$floats": [
+              0.0,
+              0.0,
+              280.0,
+              37.0
+            ]
+          }
+        },
+        {
+          "key": "UICenter",
+          "type": 8,
+          "value": {
+            "$data_hex": "06000020430040bc43",
+            "$floats": [
+              160.0,
+              376.5
+            ]
+          }
+        },
+        {
+          "key": "UIAutoresizeSubviews",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIAutoresizingMask",
+          "type": 0,
+          "value": 36
+        },
+        {
+          "key": "UIButtonStatefulContent",
+          "type": 10,
+          "value": {
+            "$ref": 98
+          }
+        },
+        {
+          "key": "UIAdjustsImageWhenHighlighted",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIAdjustsImageWhenDisabled",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIButtonType",
+          "type": 0,
+          "value": 1
+        },
+        {
+          "key": "UIFont",
+          "type": 10,
+          "value": {
+            "$ref": 93
+          }
+        }
+      ],
+      "properties_by_key": {
+        "UIAdjustsImageWhenDisabled": [
+          {
+            "key": "UIAdjustsImageWhenDisabled",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIAdjustsImageWhenHighlighted": [
+          {
+            "key": "UIAdjustsImageWhenHighlighted",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIAutoresizeSubviews": [
+          {
+            "key": "UIAutoresizeSubviews",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIAutoresizingMask": [
+          {
+            "key": "UIAutoresizingMask",
+            "type": 0,
+            "value": 36
+          }
+        ],
+        "UIBounds": [
+          {
+            "key": "UIBounds",
+            "type": 8,
+            "value": {
+              "$data_hex": "06000000000000000000008c4300001442",
+              "$floats": [
+                0.0,
+                0.0,
+                280.0,
+                37.0
+              ]
+            }
+          }
+        ],
+        "UIButtonStatefulContent": [
+          {
+            "key": "UIButtonStatefulContent",
+            "type": 10,
+            "value": {
+              "$ref": 98
+            }
+          }
+        ],
+        "UIButtonType": [
+          {
+            "key": "UIButtonType",
+            "type": 0,
+            "value": 1
+          }
+        ],
+        "UICenter": [
+          {
+            "key": "UICenter",
+            "type": 8,
+            "value": {
+              "$data_hex": "06000020430040bc43",
+              "$floats": [
+                160.0,
+                376.5
+              ]
+            }
+          }
+        ],
+        "UIFont": [
+          {
+            "key": "UIFont",
+            "type": 10,
+            "value": {
+              "$ref": 93
+            }
+          }
+        ]
+      }
+    },
+    {
+      "class": "UIBarButtonItem",
+      "index": 122,
+      "properties": [
+        {
+          "key": "UIEnabled",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UIIsSystemItem",
+          "type": 5,
+          "value": false
+        },
+        {
+          "key": "UISystemItem",
+          "type": 0,
+          "value": 6
+        },
+        {
+          "key": "UIWidth",
+          "type": 6,
+          "value": 42.0
+        }
+      ],
+      "properties_by_key": {
+        "UIEnabled": [
+          {
+            "key": "UIEnabled",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UIIsSystemItem": [
+          {
+            "key": "UIIsSystemItem",
+            "type": 5,
+            "value": false
+          }
+        ],
+        "UISystemItem": [
+          {
+            "key": "UISystemItem",
+            "type": 0,
+            "value": 6
+          }
+        ],
+        "UIWidth": [
+          {
+            "key": "UIWidth",
+            "type": 6,
+            "value": 42.0
+          }
+        ]
+      }
+    }
+  ]
+}
