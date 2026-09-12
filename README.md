@@ -36,8 +36,8 @@ plus the IPA. `tools/run_p0.sh --check path/to/Catch.ipa` runs the same pipeline
 non-zero on any drift. That check passes on the current tree.
 
 Tests that need the unpacked bundle skip when it is absent, so the suite stays green for
-anyone who has not supplied their own copy of the artifact. With the bundle present, 64
-tests pass. Without it, 36 tests pass and 28 skip.
+anyone who has not supplied their own copy of the artifact. With the bundle present, 62
+tests pass. Without it, 36 tests pass and 26 skip.
 
 The pinned artifact carries MD5 `9a891d439c74198cfa32e39a37e6bb34`. Every tool that
 reads the IPA verifies that digest before it reads anything else. Two contributors who
