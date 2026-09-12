@@ -1,0 +1,6 @@
+# Never commit the copyrighted binary or anything unpacked from it.
+*.ipa
+ipa/
+Payload/
+dump_headers/
+headers_out/
